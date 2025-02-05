@@ -5,17 +5,17 @@
                 <Navbar />
             </Header>
             <div class="main">
-                <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
+                <div class="breadcrumbs container pt-10 !mb-10" itemtype="http://schema.org/BreadcrumbList"
                     id="breadcrumbs">
-                    <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-                        <router-link to="/" itemprop="item" property="item" typeof="WebPage" class="home">
+                    <span itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                        <router-link to="/" property="item" typeof="WebPage" class="home">
                             <span property="name" itemprop="name">Главная</span>
                         </router-link>
                         <meta property="position" itemprop="position" content="1" />
                     </span>
                     &gt;
                     <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
+                        <span itemscope itemtype="http://schema.org/Thing" itemid="%slink%"
                             title="О компании">
                             <span itemprop="name" property="name">О компании</span></span>
                         <meta itemprop="position" property="position" content="2" />
@@ -88,6 +88,7 @@
                                 <Partners />
                             </div>
                         </div>
+                        <Certificate />
                         <div class="about-contact">
                             <ContactInfo />
                             <div class="max-w-[400px] mx-auto">
@@ -160,6 +161,7 @@ import Footer from '@/components/common/Footer.vue'
 import Partners from '@/components/base/Partners.vue'
 import Company from '@/components/base/Company.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
+import Certificate from '@/components/base/Certificate.vue'
 import serviceData from '@/data/service-items.js'
 export default {
     name: 'About',
@@ -170,6 +172,7 @@ export default {
         Partners,
         Company,
         ContactInfo,
+        Certificate,
         Map
     },
     data() {

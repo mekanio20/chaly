@@ -14,6 +14,11 @@ export default {
             maxZoom: 14,
         }).addTo(map)
 
+        L.icon({
+            iconUrl: "/imgs/marker-icon-2x.png",
+            iconAnchor: [16, 32],
+        });
+
         L.marker([37.922879377440566, 58.51094409382674]).addTo(map)
     }
 }
@@ -24,6 +29,7 @@ export default {
 #map {
     min-height: auto;
 }
+
 .leaflet-control-attribution {
     display: none !important;
 }
