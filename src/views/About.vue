@@ -92,7 +92,7 @@
                         <div class="about-contact">
                             <ContactInfo />
                             <div class="max-w-[400px] mx-auto">
-                                <span class="title">Оставьте свою заявку и мы вам перезвоним</span>
+                                <span class="relative z-20 mb-[20px] text-lg block font-normal text-center text-[#1d2057] uppercase">Оставьте свою заявку и мы вам перезвоним</span>
                                 <div class="wpcf7 no-js" id="wpcf7-f381-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>

@@ -5680,7 +5680,7 @@ header {
   }
 }
 header {
-  z-index: 100;
+  z-index: 9999 !important;
   width: 100%;
   color: #1d2057;
   background: rgba(255, 255, 255, 0);
@@ -11700,7 +11700,7 @@ textarea:-ms-input-placeholder {
     width: 100%;
     top: -60px;
     bottom: -60px;
-    z-index: 999;
+    z-index: 999 !important;
     -webkit-transition: 0.4s cubic-bezier(0.55, 0, 0.1, 1);
     transition: 0.4s cubic-bezier(0.55, 0, 0.1, 1);
     background: #fff;

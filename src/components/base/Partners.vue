@@ -1,8 +1,8 @@
 <template>
-    <swiper :navigation="true" :modules="modules" :slidesPerView="5" spaceBetween="100" loop="true"
-        class="select-none flex items-center">
+    <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="100"
+        class="w-full select-none flex items-center">
         <swiper-slide v-for="item in partners" :key="item.id">
-            <div class="w-[150px] h-[100px]">
+            <div class="h-[70px]">
                 <img class="w-full h-full object-contain lazyload" :src="item.img" :data-src="item.img" />
             </div>
         </swiper-slide>
@@ -25,8 +25,15 @@ export default {
     },
     setup() {
         return {
+            partners,
             modules: [Navigation],
-            partners
+            slidesPerView: 4,
+            breakpoints: {
+                200: { slidesPerView: 1 },
+                500: { slidesPerView: 2 },
+                950: { slidesPerView: 3 },
+                1200: { slidesPerView: 4 },
+            },
         };
     },
 }
