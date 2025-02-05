@@ -38,12 +38,12 @@
                     <div class="container">
                         <strong class="global-title font-bold text-m_blue-100">Наши работы</strong>
                         <aside class="sidebar-news">
-                            <router-link to="/news/all"
+                            <router-link to="/news"
                                 class="py-[10px] text-center mb-[30px] leading-[20px] rounded-full block font-normal hover:text-white text-white uppercase bg-m_red-100 hover:opacity-80 duration-300">Новости<i
                                     class="figure"></i></router-link>
                             <ul>
-                                <NewsCard v-for="item in news" :key="item.id" :url="item.url" :title="item.title"
-                                    :date="item.date" :image="item.image" />
+                                <NewsCard v-for="item in news" :key="item.id" :url="item.url" :title="item.name"
+                                    :date="item.date" :image="item.img" />
                             </ul>
                         </aside>
                         <div class="projects-list">

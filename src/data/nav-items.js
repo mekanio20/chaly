@@ -14,11 +14,11 @@ export default [
   //   title: "Технологии",
   //   url: "#",
   // },
-  // {
-  //   id: "menu-item-1023",
-  //   title: "Оборудование",
-  //   url: "#",
-  // },
+  {
+    id: "menu-item-1023",
+    title: "Новости",
+    url: "/news",
+  },
   {
     id: "menu-item-1360",
     title: "Работы",

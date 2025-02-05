@@ -40,11 +40,11 @@
                     <noindex>
                         <Company />
                         <ContactInfo />
-                        <div class="contact-nav-box">
+                        <a href="tel:99365609009" class="contact-nav-box">
                             <strong class="title">Остались вопросы?<br />
                                 Мы Вам перезвоним</strong>
-                            <span style="width: 186px" class="callback">Перезвоните мне</span>
-                        </div>
+                            <span class="callback">Перезвоните мне</span>
+                        </a>
                         <div class="about-content">
                             <div class="clients-container">
                                 <h2 class="global-title"><span>Наши клиенты</span></h2>
