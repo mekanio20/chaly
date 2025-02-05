@@ -1,26 +1,27 @@
 <template>
   <footer style="background-image: url('/imgs/bg-footer.jpg');">
-    <div class="container flex items-start justify-around">
+    <div
+      class="container flex sm:flex-row flex-col sm:items-start items-center sm:justify-around sm:text-start text-center">
       <div class="item">
         <strong class="title">Услуги</strong>
         <div class="menu-uslugi-container">
-          <ul id="menu-uslugi" class="menu">
-            <li v-for="item in service_items" :key="item.id" :id="item.id"
+          <div id="menu-uslugi" class="menu">
+            <div v-for="item in service_items" :key="item.id" :id="item.id"
               class="menu-item menu-item-type-post_type menu-item-object-services" :class="item.id">
-              <router-link :to="item.url">{{ item.name }}</router-link>
-            </li>
-          </ul>
+              <router-link class="duration-300" :to="item.url">{{ item.name }}</router-link>
+            </div>
+          </div>
         </div>
       </div>
       <div class="item">
         <strong class="title">Разделы сайта</strong>
         <div class="menu-razdely-sajta-container">
-          <ul id="menu-razdely-sajta" class="menu">
-            <li v-for="item in items" :key="item.id" :id="item.id"
+          <div id="menu-razdely-sajta" class="menu">
+            <div v-for="item in items" :key="item.id" :id="item.id"
               class="menu-item menu-item-type-post_type menu-item-object-page" :class="item.id">
-              <router-link :to="item.url">{{ item.title }}</router-link>
-            </li>
-          </ul>
+              <router-link class="duration-300" :to="item.url">{{ item.title }}</router-link>
+            </div>
+          </div>
         </div>
       </div>
       <div class="item form-item">
@@ -28,10 +29,8 @@
         <div class="mailpoet_form_popup_overlay"></div>
         <div id="mailpoet_form_2"
           class="mailpoet_form mailpoet_form_widget mailpoet_form_position_ mailpoet_form_animation_">
-          <form target="_self" method="post"
-            action=""
-            class="mailpoet_form mailpoet_form_form mailpoet_form_widget" novalidate data-delay=""
-            data-exit-intent-enabled="" data-font-family="" data-cookie-expiration-time="">
+          <form target="_self" method="post" action="" class="mailpoet_form mailpoet_form_form mailpoet_form_widget"
+            novalidate data-delay="" data-exit-intent-enabled="" data-font-family="" data-cookie-expiration-time="">
             <input type="hidden" name="data[form_id]" value="2" />
             <input type="hidden" name="token" value="e0c3888003" />
             <input type="hidden" name="api_version" value="v1" />
@@ -82,8 +81,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class=" inline-block my-2 text-center" style="color: white; margin-left: 6%">
-          <a class="" href=""
-            target="_ blank" style="color: #ca313a">
+          <a class="" href="" target="_ blank" style="color: #ca313a">
             Пользовательское соглашение
           </a>
           на обработку персональных данных.
@@ -106,7 +104,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-/* Add your Tailwind CSS classes or custom styles here */
-</style>

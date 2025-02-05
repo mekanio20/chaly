@@ -93,6 +93,11 @@ export default {
             this.service = serviceData.find(item => item.id == this.$route.params.id)
             console.log(this.service);
         }
+    },
+    watch: {
+        $route() {
+            this.getServiceDetail()
+        }
     }
 }
 </script>

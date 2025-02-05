@@ -19,23 +19,21 @@
     </div>
     <!-- Sidebar -->
     <div ref="sidebarRef"
-      class="fixed !z-50 inset-y-0 left-0 w-64 bg-gray-900 text-white transform transition-transform duration-300 ease-in-out"
+      class="fixed !z-50 inset-y-0 left-0 w-full bg-gray-300 transform transition-transform duration-300 ease-in-out"
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
-      <div class="p-5">
-        <h2 class="text-xl font-bold">Menü</h2>
+      <div class="nav-menu show p-5">
+        <span class="close" @click="toggleSidebar"></span>
         <ul class="mt-4 space-y-2">
-          <li class="p-2 hover:bg-gray-700 rounded cursor-pointer">Anasayfa</li>
-          <li class="p-2 hover:bg-gray-700 rounded cursor-pointer">Hakkımızda</li>
-          <li class="p-2 hover:bg-gray-700 rounded cursor-pointer">Hizmetler</li>
-          <li class="p-2 hover:bg-gray-700 rounded cursor-pointer">İletişim</li>
+          <li v-for="item in navItems" :key="item.id" class="p-2 hover:bg-gray-200 rounded cursor-pointer duration-300">
+            <router-link :to="item.url" class="hover:text-current">{{ item.title }}</router-link>
+          </li>
         </ul>
       </div>
     </div>
-    <!-- Sidebar Açıkken Arkaya Tıklanınca Kapatma Alanı -->
-    <div v-if="isOpen" class="fixed inset-0 bg-black bg-opacity-50"></div>
+    <div v-if="isOpen" @click="toggleSidebar" class="fixed inset-0 bg-black bg-opacity-50"></div>
     <div class="header-middle">
       <div class="container">
-        <div @click.self="toggleSidebar" class="btn-menu cursor-pointer"><span></span></div>
+        <div @click="handleClickOutside" class="btn-menu cursor-pointer"><span></span></div>
         <div class="logo">
           <router-link to="/" rel="home" class="!h-[100px] md:w-full w-[120px] mx-auto">
             <img class="lazyload w-full h-full object-cover" src="/svgs/site-logo.svg" data-src="/svgs/site-logo.svg" />
@@ -49,30 +47,24 @@
 </template>
 
 <script>
+import navItems from '@/data/nav-items.js'
 export default {
   name: 'Header',
   data() {
     return {
       isOpen: false,
+      navItems
     }
   },
   methods: {
     toggleSidebar() {
       this.isOpen = !this.isOpen;
-      console.log(this.isOpen);
     },
     handleClickOutside(event) {
-      if (this.isOpen && this.$refs.sidebarRef && !this.$refs.sidebarRef.contains(event.target)) {
-        console.log(this.isOpen);
-        this.isOpen = false;
+      if (!this.isOpen && this.$refs.sidebarRef && !this.$refs.sidebarRef.contains(event.target)) {
+        this.isOpen = !this.isOpen;
       }
     },
-  },
-  mounted() {
-    document.addEventListener("click", this.handleClickOutside);
-  },
-  beforeUnmount() {
-    document.removeEventListener("click", this.handleClickOutside);
   },
 }
 </script>

@@ -5,7 +5,7 @@
                 <Navbar />
             </Header>
             <div class="main">
-                <div class="breadcrumbs container" itemscope="" itemtype="http://schema.org/BreadcrumbList"
+                <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
                     id="breadcrumbs">
                     <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a
                             itemprop="item" property="item" typeof="WebPage" title="АСГАРД-Сервис." href="../index.html"

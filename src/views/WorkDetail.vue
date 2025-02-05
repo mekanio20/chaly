@@ -92,6 +92,11 @@ export default {
             this.work = workData.find(item => item.id == this.$route.params.id)
             console.log(this.work);
         }
+    },
+    watch: {
+        $route() {
+            this.getWorkDetail()
+        }
     }
 }
 </script>

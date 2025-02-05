@@ -95,11 +95,6 @@ const router = createRouter({
       name: "NewsDetail",
       component: () => import("@/views/NewsDetail.vue"),
     },
-    // {
-    //   path: "/test",
-    //   name: "Test",
-    //   component: () => import("@/views/test.vue"),
-    // },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
