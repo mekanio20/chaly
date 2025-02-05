@@ -1,11 +1,6 @@
 <template>
   <li class="item item-0">
     <router-link :to="url" class="image">
-      <noscript>
-        <img width="80" height="80"
-          :src="image"
-          class="attachment-img_small size-img_small wp-post-image" decoding="async" loading="lazy" />
-      </noscript>
       <img width="80" height="80"
           :src="image"
           class="lazyload attachment-img_small size-img_small wp-post-image" decoding="async" loading="lazy"

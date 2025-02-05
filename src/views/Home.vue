@@ -36,7 +36,7 @@
                 </div>
                 <div class="projects-content">
                     <div class="container">
-                        <strong class="global-title font-bold text-m_blue-100">Наши продукты</strong>
+                        <strong class="global-title font-bold text-m_blue-100">Наши работы</strong>
                         <aside class="sidebar-news">
                             <router-link to="/news/all"
                                 class="py-[10px] text-center mb-[30px] leading-[20px] rounded-full block font-normal hover:text-white text-white uppercase bg-m_red-100 hover:opacity-80 duration-300">Новости<i
@@ -48,12 +48,19 @@
                         </aside>
                         <div class="projects-list">
                             <ul>
-                                <WorkCard v-for="item in works.slice(0, 4)" :key="item.id" :bg_img="item.bg_image"
-                                    :title="item.title" :url="item.url" />
+                                <li v-for="item in serviceData" :key="item.id">
+                                    <router-link :to="item.url" class="w-full h-full">
+                                        <h2 class="title !pt-2">{{ item.name }}</h2>
+                                        <img :src="item.image" class="w-full h-full object-cover" />
+                                        <div class="text">
+                                            <span class="mark-link opacity-80">Подробнее</span>
+                                        </div>
+                                    </router-link>
+                                </li>
                             </ul>
-                            <router-link to="/works/all"
+                            <router-link to="/works"
                                 class="py-2 px-10 rounded-[25px] min-w-[205px] table cursor-pointer mx-auto font-normal text-white text-center bg-m_red-100 hover:opacity-80 duration-300 hover:text-white">
-                                Все продукты
+                                Все работы
                             </router-link>
                         </div>
                     </div>
@@ -73,6 +80,7 @@ import WorkCard from '@/components/cards/Work.vue';
 import NewsCard from '@/components/cards/News.vue';
 import worksData from '@/data/work-card.js'
 import newsData from '@/data/news-card.js'
+import serviceData from '@/data/service-items.js'
 export default {
     name: 'Home',
     components: {
@@ -87,7 +95,8 @@ export default {
         return {
             isOpen: true,
             works: worksData,
-            news: newsData
+            news: newsData,
+            serviceData
         }
     },
     methods: {

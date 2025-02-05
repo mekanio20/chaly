@@ -374,43 +374,7 @@
                     </div>
                 </div>
                 <noindex>
-                    <div class="advantage-list">
-                        <h3>Преимущества компании</h3>
-                        <ol>
-                            <li>
-                                <span>
-                                    <p>Быстрый отклик на заявку</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Высокое качество выполняемых работ</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Подбор хим. реагентов индивидуально под заказчика</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Специалисты с опытом более 10 лет в отрасли</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Низкие цены, так как работаем над издержками</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>
-                                        Короткие сроки мобилизации и оперативное начало работ
-                                    </p>
-                                </span>
-                            </li>
-                        </ol>
-                    </div>
+                    <Company />
                     <ContactInfo />
                     <div class="contact-nav-box">
                         <strong class="title">Остались вопросы?<br />
@@ -438,6 +402,7 @@ import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import Partners from '@/components/base/Partners.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
+import Company from '@/components/base/Company.vue'
 export default {
     name: "Inzener-remont",
     components: {
@@ -445,7 +410,8 @@ export default {
         Header,
         Footer,
         ContactInfo,
-        Partners
+        Partners,
+        Company
     }
 }
 </script>

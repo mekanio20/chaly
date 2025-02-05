@@ -24,7 +24,7 @@
                     <h1 class="global-title">Наши услуги</h1>
                     <div class="projects-content services-content">
                         <div class="our-services-content">
-                            <div class="services-box">
+                            <div class="services-box !px-0">
                                 <router-link to="/services/"
                                     class="title"><span>Предприятия промышленные, предприятия нефтепереработки и
                                         нефтехимии</span><i class="figure"></i></router-link>

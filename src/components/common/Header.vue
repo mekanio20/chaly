@@ -12,8 +12,7 @@
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB4ElEQVQ4jZ2VTY4TQQyFP7s8kxAGwoIfCbFGrJAQB+AeHIE915hdLsESiSULTsEJhgUaRUHqiImmy2bRqa7uTqREWGqVy3K9st+rqpaI4ByLCERkNAdGMRFB1uu17nY7SymhqogIEaHnbLLPdXfH3QFaa5rm42KxeK+qw8SzAAEXEVSVnLM3TfPNzOzzcrl8Oyz9f8zd2W63Tw24VFVUlSmf+5ZG/nAEpv5cpwBTO7awgE6FArAIiAD3Q7WnFR87ESVWcOz62lkuHVWh6CLSfd1GNXkMxAgowtlsAlutlNlMSUlIqYK5Q86HAKXDClRzcxYMuoCq9G2XxCpA4TKA4cjEh9Ik7kHbSl/VUIBaZfGHQsiIDquCCKq1Qoiex1rJuP0ecpBnn9KKq/TYVRVRURSXWr2Pl45jEUCgIe4Z50/euPx6efXz+YW9EVVQraxz6uYUmR088Jy5afMXS88SepkQVUKEco2P0T+E6mOx7zdDasH01SXMEyHagQ54ATkCGp1fEvvzk0i7jMUL83hogBLSIzHh/WBegx1ghBN34vZj61+fkH8LTtevTIU4YbG/1+63jX+XD+9eLx5dtPNkprP5A1JKnPccBu5Bzi27u79+f99yc7ttOjrO/A2cMhHhH9lUIJHhFUZiAAAAAElFTkSuQmCC" />
           </router-link>
           <a class="mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
-          <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a><span class="callback">Заказать
-            обратный звонок</span>
+          <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
           <span class="search-btn"></span>
         </div>
       </div>

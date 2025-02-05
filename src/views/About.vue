@@ -66,80 +66,21 @@
                                 оборудования.
                             </p>
                         </div>
-                        <div class="advantage-list">
-                            <h3 class="text-2xl mb-6">Преимущества компании</h3>
-                            <ol>
-                                <li>
-                                    <span>
-                                        <p>Быстрый отклик на заявку</p>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <p>Высокое качество выполняемых работ</p>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <p>Подбор хим. реагентов индивидуально под заказчика</p>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <p>Специалисты с опытом более 10 лет в отрасли</p>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <p>Низкие цены, так как работаем над издержками</p>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        <p>
-                                            Короткие сроки мобилизации и оперативное начало работ
-                                        </p>
-                                    </span>
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="text-wrap objectives-list">
-                            <h3 class="text-2xl mb-6">Миссия и ценность компании</h3>
-                            <ul style="list-style-type: circle">
-                                <li style="text-align: left">
-                                    <span style="font-size: 14pt">Поиск и внедрение новых решений для повышения
-                                        эффективности
-                                        производственных процессов.</span>
-                                </li>
-                                <li style="text-align: left">
-                                    <span style="font-size: 14pt">Построение стабильных взаимовыгодных отношений с
-                                        нашими
-                                        Заказчиками.</span>
-                                </li>
-                                <li style="text-align: left">
-                                    <span style="font-size: 14pt">Постоянный рост, совершенствование и расширение в
-                                        области
-                                        услуг по сервису, очистке и ремонту технологического
-                                        оборудования</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <Company />
                         <div class="our-services-content">
-                            <div class="container">
-                                <div class="services-box">
-                                    <router-link to="/services" class="title"><span>Сервис инженерных систем зданий и сооружений</span><i
-                                            class="figure"></i>
+                            <div class="services-box !px-0">
+                                <router-link to="/services" class="title"><span>Сервис инженерных систем зданий и
+                                        сооружений</span><i class="figure"></i>
+                                </router-link>
+                                <ul>
+                                    <li v-for="item in serviceData" :key="item.id">
+                                        <router-link :to="item.url">
+                                            {{ item.name }}
                                         </router-link>
-                                    <ul>
-                                        <li v-for="item in serviceData" :key="item.id">
-                                            <router-link :to="item.url">
-                                                {{ item.name }}
-                                            </router-link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <router-link to="/services" class="mark-link"><span>Все услуги</span></router-link>
+                                    </li>
+                                </ul>
                             </div>
+                            <router-link to="/services" class="mark-link"><span>Все услуги</span></router-link>
                         </div>
                         <div class="clients-container">
                             <h2 class="global-title"><span>Наши клиенты</span></h2>
@@ -217,6 +158,7 @@ import Navbar from '@/components/common/Navbar.vue'
 import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import Partners from '@/components/base/Partners.vue'
+import Company from '@/components/base/Company.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
 import serviceData from '@/data/service-items.js'
 export default {
@@ -226,6 +168,7 @@ export default {
         Header,
         Footer,
         Partners,
+        Company,
         ContactInfo,
         Map
     },

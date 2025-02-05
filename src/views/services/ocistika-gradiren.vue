@@ -346,64 +346,8 @@ trading service                             проконсультируют В�
                     </div>
                 </div>
                 <noindex>
-                    <div class="advantage-list">
-                        <h3>Преимущества компании</h3>
-                        <ol>
-                            <li>
-                                <span>
-                                    <p>Быстрый отклик на заявку</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Высокое качество выполняемых работ</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Подбор хим. реагентов индивидуально под заказчика</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Специалисты с опытом более 10 лет в отрасли</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>Низкие цены, так как работаем над издержками</p>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <p>
-                                        Короткие сроки мобилизации и оперативное начало работ
-                                    </p>
-                                </span>
-                            </li>
-                        </ol>
-                    </div>
-                    <ul class="contact-info-box">
-                        <li class="row-1">
-                            <strong class="title">Фактический адрес</strong>
-                            <address>
-                                г. Москва, ул. Большая Почтовая 55/59, строение 1, офис 436
-                            </address>
-                        </li>
-                        <li class="row-1">
-                            <strong class="title">Телефон</strong>
-                            <a class="phone" href="tel:+74993223062">+7 (499) 322 - 30 - 62</a>
-                        </li>
-                        <li class="row-1">
-                            <strong class="title">E-mail</strong>
-                            <a href="mailto:info@asgard-service.com">info@asgard-service.com</a>
-                        </li>
-                        <li class="row-1">
-                            <strong class="title">График работы</strong>
-                            <span class="schedule">ПН-ПТ с 09:00 до 18:00</span>
-                        </li>
-                        <li class="clearfix"></li>
-                    </ul>
+                    <Company />
+                    <ContactInfo />
                     <div class="contact-nav-box">
                         <strong class="title">Остались вопросы?<br />
                             Мы Вам перезвоним</strong>
@@ -422,13 +366,15 @@ import Navbar from '@/components/common/Navbar.vue'
 import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
+import Company from '@/components/base/Company.vue'
 export default {
     name: "Ocistika",
     components: {
         Navbar,
         Header,
         Footer,
-        ContactInfo
+        ContactInfo,
+        Company
     }
 }
 </script>

@@ -20,45 +20,60 @@ const router = createRouter({
       component: () => import("@/views/Service.vue"),
     },
     {
-      path: "/services/ocistika-gradiren",
-      name: "Ocistika",
-      component: () => import("@/views/services/ocistika-gradiren.vue"),
+      path: "/services/:id",
+      name: "ServiceDetail",
+      component: () => import("@/views/ServiceDetail.vue"),
     },
-    {
-      path: "/services/zamena-technology",
-      name: "Zameno-technology",
-      component: () => import("@/views/services/zamena-technology.vue"),
-    },
-    {
-      path: "/services/montaz-remont",
-      name: "Montaz-remont",
-      component: () => import("@/views/services/montaz-remont.vue"),
-    },
-    {
-      path: "/services/inzener-remont",
-      name: "Inzener-remont",
-      component: () => import("@/views/services/inzener-remont.vue"),
-    },
-    {
-      path: "/services/promyvka-teploobmennikow",
-      name: "Promyvka-teploobmennikow",
-      component: () => import("@/views/services/promyvka-teploobmennikow.vue"),
-    },
-    {
-      path: "/services/ocistika-promyvka",
-      name: "Ocistika-promyvka",
-      component: () => import("@/views/services/ocistika-promyvka.vue"),
-    },
-    {
-      path: "/services/ocistika-plastinka",
-      name: "Ocistika-plastinka",
-      component: () => import("@/views/services/ocistika-plastinka.vue"),
-    },
+    // {
+    //   path: "/services/ocistika-gradiren",
+    //   name: "Ocistika",
+    //   component: () => import("@/views/services/ocistika-gradiren.vue"),
+    // },
+    // {
+    //   path: "/services/zamena-technology",
+    //   name: "Zameno-technology",
+    //   component: () => import("@/views/services/zamena-technology.vue"),
+    // },
+    // {
+    //   path: "/services/montaz-remont",
+    //   name: "Montaz-remont",
+    //   component: () => import("@/views/services/montaz-remont.vue"),
+    // },
+    // {
+    //   path: "/services/neftepererabotki-i-khimicheskoy-promyshlennosti",
+    //   name: "Neftepererabotki-i-khimicheskoy-promyshlennosti",
+    //   component: () => import("@/views/services/neftepererabotki-i-khimicheskoy-promyshlennosti.vue"),
+    // },
+    // {
+    //   path: "/services/videonablyudenie-i-poharnaya-sistema",
+    //   name: "Videonablyudenie-i-poharnaya-sistema",
+    //   component: () => import("@/views/services/videonablyudenie-i-poharnaya-sistema.vue"),
+    // },
+    // {
+    //   path: "/services/promyvka-teploobmennikow",
+    //   name: "Promyvka-teploobmennikow",
+    //   component: () => import("@/views/services/promyvka-teploobmennikow.vue"),
+    // },
+    // {
+    //   path: "/services/ocistika-promyvka",
+    //   name: "Ocistika-promyvka",
+    //   component: () => import("@/views/services/ocistika-promyvka.vue"),
+    // },
+    // {
+    //   path: "/services/ocistika-plastinka",
+    //   name: "Ocistika-plastinka",
+    //   component: () => import("@/views/services/ocistika-plastinka.vue"),
+    // },
     // ############
     {
       path: "/works",
       name: "Work",
       component: () => import("@/views/Work.vue"),
+    },
+    {
+      path: "/works/:id",
+      name: "WorkDetail",
+      component: () => import("@/views/WorkDetail.vue"),
     },
     {
       path: "/career",
@@ -70,11 +85,11 @@ const router = createRouter({
       name: "Contact",
       component: () => import("@/views/Contact.vue"),
     },
-    {
-      path: "/test",
-      name: "Test",
-      component: () => import("@/views/test.vue"),
-    },
+    // {
+    //   path: "/test",
+    //   name: "Test",
+    //   component: () => import("@/views/test.vue"),
+    // },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
