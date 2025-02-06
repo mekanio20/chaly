@@ -25,10 +25,10 @@
                 <div class="projects-content works-content">
                     <div class="projects-list">
                         <ul>
-                            <li v-for="item in newsData" :key="item.id">
+                            <li v-for="(item, index) in news" :key="item.id">
                                 <router-link :to="item.url" class="w-full h-full">
                                     <h2 class="title !pt-2">{{ item.name }}</h2>
-                                    <img :src="item.img" class="w-full h-full object-cover" />
+                                    <img :src="news_images[index]" class="w-full h-full object-cover" />
                                     <div class="text">
                                         <span class="mark-link opacity-80">Подробнее</span>
                                     </div>
@@ -48,7 +48,7 @@ import Navbar from '@/components/common/Navbar.vue'
 import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import WorkCard from '@/components/cards/Work.vue';
-import newsData from '@/data/news-card.js'
+import newsData from '@/data/news-items.js'
 export default {
     name: "News",
     components: {
@@ -57,9 +57,14 @@ export default {
         Footer,
         WorkCard
     },
+    created() {
+        this.news = newsData[this.$i18n.locale]
+        this.news_images = newsData.imgs
+    },
     data() {
         return {
-            newsData
+            news: null,
+            news_images: null
         }
     }
 }

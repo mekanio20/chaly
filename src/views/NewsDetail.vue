@@ -68,7 +68,7 @@ import Footer from '@/components/common/Footer.vue'
 import Partners from '@/components/base/Partners.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
 import Company from '@/components/base/Company.vue'
-import newsData from '@/data/news-card.js'
+import newsData from '@/data/news-items.js'
 export default {
   name: "NewsDetail",
   components: {
@@ -89,7 +89,7 @@ export default {
   },
   methods: {
     getnewsDetail() {
-      this.news = newsData.find(item => item.id == this.$route.params.id)
+      this.news = newsData[this.$i18n.locale].find(item => item.id == this.$route.params.id)
     }
   }
 }

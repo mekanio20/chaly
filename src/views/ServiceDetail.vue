@@ -29,8 +29,7 @@
                 <div class="news-contant">
                     <div class="text-wrap">
                         <p>
-                            <img decoding="async" class="lazyload alignright wp-image-1028" :src="service?.image"
-                                :data-src="service?.image" width="450" height="300"
+                            <img decoding="async" class="lazyload alignright wp-image-1028" :src="service?.image" width="450" height="300"
                                 data-sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" />
                             {{ service?.title }}
                         </p>
@@ -88,7 +87,8 @@ export default {
     },
     methods: {
         getServiceDetail() {
-            this.service = serviceData.find(item => item.id == this.$route.params.id)
+            this.service = serviceData[this.$i18n.locale].find(item => item.id == this.$route.params.id)
+            console.log(this.service);
         }
     },
     watch: {

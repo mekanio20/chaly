@@ -71,7 +71,7 @@
                                     сооружений</span><i class="figure"></i>
                             </router-link>
                             <ul>
-                                <li v-for="item in serviceData" :key="item.id">
+                                <li v-for="item in services" :key="item.id">
                                     <router-link :to="item.url">
                                         {{ item.name }}
                                     </router-link>
@@ -174,9 +174,12 @@ export default {
         Certificate,
         Map
     },
+    created() {
+        this.services = serviceData[this.$i18n.locale]
+    },
     data() {
         return {
-            serviceData
+            services: null
         }
     }
 };

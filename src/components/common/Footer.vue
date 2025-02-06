@@ -96,10 +96,14 @@ import navData from '@/data/nav-items.js'
 import serviceData from '@/data/service-items.js'
 export default {
   name: 'Footer',
+  created() {
+    this.items = navData[this.$i18n.locale]
+    this.service_items = serviceData[this.$i18n.locale]
+  },
   data() {
     return {
-      items: navData,
-      service_items: serviceData
+      items: null,
+      service_items: null
     }
   }
 };

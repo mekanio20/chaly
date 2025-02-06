@@ -28,7 +28,7 @@
                                     нефтепереработки и
                                     нефтехимии</span><i class="figure"></i></router-link>
                             <ul>
-                                <li v-for="item in serviceData" :key="item.id">
+                                <li v-for="item in service" :key="item.id">
                                     <router-link :to="item.url">
                                         {{ item.name }}
                                     </router-link>
@@ -84,9 +84,12 @@ export default {
         Header,
         Footer,
     },
+    created() {
+        this.service = serviceData[this.$i18n.locale]
+    },
     data() {
         return {
-            serviceData
+            service: null
         }
     }
 }

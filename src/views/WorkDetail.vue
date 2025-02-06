@@ -64,7 +64,7 @@ import Footer from '@/components/common/Footer.vue'
 import ContactInfo from '@/components/base/ContactInfo.vue'
 import Company from '@/components/base/Company.vue'
 import Partners from '@/components/base/Partners.vue'
-import workData from '@/data/work-card.js'
+import workData from '@/data/work-items.js'
 export default {
     name: "WorkDetail",
     components: {
@@ -85,7 +85,7 @@ export default {
     },
     methods: {
         getWorkDetail() {
-            this.work = workData.find(item => item.id == this.$route.params.id)
+            this.work = workData[this.$i18n.locale].find(item => item.id == this.$route.params.id)
         }
     },
     watch: {

@@ -41,16 +41,16 @@
                             class="py-[10px] text-center mb-[30px] leading-[20px] rounded-full block font-normal hover:text-white text-white uppercase bg-m_red-100 hover:opacity-80 duration-300">Новости<i
                                 class="figure"></i></router-link>
                         <ul>
-                            <NewsCard v-for="item in news" :key="item.id" :url="item.url" :title="item.name"
-                                :date="item.date" :image="item.img" />
+                            <NewsCard v-for="(item, index) in news" :key="item.id" :url="item.url" :title="item.name"
+                                :date="item.date" :image="news_images[index]" />
                         </ul>
                     </aside>
                     <div class="projects-list">
                         <ul>
-                            <li v-for="item in serviceData" :key="item.id">
+                            <li v-for="(item, index) in services" :key="item.id">
                                 <router-link :to="item.url" class="w-full h-full">
                                     <h2 class="title !pt-2">{{ item.name }}</h2>
-                                    <img :src="item.image" class="w-full h-full object-cover" />
+                                    <img :src="service_images[index]" class="w-full h-full object-cover" />
                                     <div class="text">
                                         <span class="mark-link opacity-80">Подробнее</span>
                                     </div>
@@ -70,15 +70,13 @@
 </template>
 
 <script>
-import Sidebar from '@/components/common/Sidebar.vue';
 import Navbar from '@/components/common/Navbar.vue'
 import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import WorkCard from '@/components/cards/Work.vue';
 import NewsCard from '@/components/cards/News.vue';
-import worksData from '@/data/work-card.js'
-import newsData from '@/data/news-card.js'
 import serviceData from '@/data/service-items.js'
+import newsData from '@/data/news-items.js'
 export default {
     name: 'Home',
     components: {
@@ -87,31 +85,25 @@ export default {
         Footer,
         WorkCard,
         NewsCard,
-        Sidebar,
+    },
+    created() {
+        this.services = serviceData[this.$i18n.locale]
+        this.service_images = serviceData.imgs
+
+        this.news = newsData[this.$i18n.locale]
+        this.news_images = newsData.imgs
+
     },
     data() {
         return {
             isOpen: true,
-            works: worksData,
-            news: newsData,
-            serviceData
+
+            news: null,
+            news_images: null,
+
+            services: null,
+            service_images: null
         }
-    },
-    methods: {
-        toggleSidebar() {
-            this.isOpen = !this.isOpen;
-        },
-        handleClickOutside(event) {
-            if (this.isOpen && this.$refs.sidebarRef && !this.$refs.sidebarRef.contains(event.target)) {
-                this.isOpen = false;
-            }
-        },
-    },
-    mounted() {
-        document.addEventListener("click", this.handleClickOutside);
-    },
-    beforeUnmount() {
-        document.removeEventListener("click", this.handleClickOutside);
     },
 }
 </script>

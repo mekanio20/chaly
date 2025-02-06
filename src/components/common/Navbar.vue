@@ -17,10 +17,12 @@
 import navData from '@/data/nav-items.js'
 export default {
     name: 'Navbar',
-
+    created() {
+        this.items = navData[this.$i18n.locale]
+    },
     data() {
         return {
-            items: navData
+            items: null
         }
     }
 }

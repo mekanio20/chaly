@@ -7,7 +7,7 @@
             <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
                 id="breadcrumbs">
                 <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
-                        property="item" typeof="WebPage" title="АСГАРД-Сервис." href="../index.html" class="home"><span
+                        property="item" typeof="WebPage" href="/" class="home"><span
                             property="name" itemprop="name">Главная</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
@@ -21,11 +21,18 @@
             </div>
             <div class="container">
                 <h1 class="global-title">Наши работы</h1>
-                <div class="projects-content works-content">
+                <div class="projects-content">
                     <div class="projects-list">
                         <ul>
-                            <WorkCard v-for="item in works" :key="item.id" :bg_img="item.bg_image"
-                                :title="item.title" :url="item.link" class="!mb-10" />
+                            <li v-for="(item, index) in services" :key="item.id">
+                                <router-link :to="item.url" class="w-full h-full">
+                                    <h2 class="title !pt-2">{{ item.name }}</h2>
+                                    <img :src="service_images[index]" class="w-full h-full object-cover" />
+                                    <div class="text">
+                                        <span class="mark-link opacity-80">Подробнее</span>
+                                    </div>
+                                </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -40,7 +47,8 @@ import Navbar from '@/components/common/Navbar.vue'
 import Header from '@/components/common/Header.vue'
 import Footer from '@/components/common/Footer.vue'
 import WorkCard from '@/components/cards/Work.vue';
-import workData from '@/data/work-card.js'
+import workData from '@/data/work-items.js'
+import serviceData from '@/data/service-items.js'
 export default {
     name: "Work",
     components: {
@@ -51,17 +59,23 @@ export default {
     },
     data() {
         return {
+            services: null,
+            service_images: null,
             works: null,
+            work_images: null,
             searchQuery: this.$route.query.q || "",
         }
     },
     created() {
-        this.works = workData.filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
+        this.services = serviceData[this.$i18n.locale]
+        this.service_images = serviceData.imgs
+        this.works = workData[this.$i18n.locale].filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
+        this.work_images = workData.imgs
     },
     watch: {
         "$route.query.q"(newQuery) {
             this.searchQuery = newQuery || "";
-            this.works = workData.filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
+            this.works = workData[this.$i18n.locale].filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
         },
     },
 }
