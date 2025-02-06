@@ -17,7 +17,7 @@
           </a>
           <a class="mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
           <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
-          <a>
+          <a class="mt-[2px]">
             <Search />
           </a>
         </div>
