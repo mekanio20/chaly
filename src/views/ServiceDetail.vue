@@ -39,23 +39,21 @@
                         </p>
                     </div>
                 </div>
-                <noindex>
-                    <Company />
-                    <ContactInfo />
-                    <a href="tel:99365609009" class="contact-nav-box">
-                        <strong class="title">Остались вопросы?<br />
-                            Мы Вам перезвоним</strong>
-                        <span class="callback">Перезвоните мне</span>
-                    </a>
-                    <div class="about-content">
-                        <div class="clients-container">
-                            <h2 class="global-title"><span>Наши клиенты</span></h2>
-                            <div class="pb-20">
-                                <Partners />
-                            </div>
+                <Company />
+                <ContactInfo />
+                <a href="tel:99365609009" class="contact-nav-box">
+                    <strong class="title">Остались вопросы?<br />
+                        Мы Вам перезвоним</strong>
+                    <span class="callback">Перезвоните мне</span>
+                </a>
+                <div class="about-content">
+                    <div class="clients-container">
+                        <h2 class="global-title"><span>Наши клиенты</span></h2>
+                        <div class="pb-20">
+                            <Partners />
                         </div>
                     </div>
-                </noindex>
+                </div>
             </div>
         </div>
         <Footer />
@@ -91,7 +89,6 @@ export default {
     methods: {
         getServiceDetail() {
             this.service = serviceData.find(item => item.id == this.$route.params.id)
-            console.log(this.service);
         }
     },
     watch: {

@@ -3,14 +3,18 @@
     <div class="header-top">
       <div class="container">
         <div class="textwidget">
-          <router-link to="#" class="mail mt-1">
+          <a class="mail">
             <img style="width: 20px"
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAEIUlEQVQ4jY2VS2zURRzHP7/Z2d3/bvfZLgsUeVUItKIJPkBEA0J5C0KiB73pgXjwpOFsjAkHL2qiMYF4IcQD4qMQkyqYQjQqFlILQoEiIMujpQ/62Ee3/50ZD7ttIB7kl8wkM8nM7/v75fOdEeccDxPOOUTkgTXwwJ6IIJ8dPKn+6P5HJxMR4nWeUiIgQsujGdY9lmWkrR1bLAGgohFSu7Zy7M87XLo+VLvUMTY+YUfzJZIxr6Lf2Xvk9Xgi/oznBRERlKpm3LF2CesWxhn9rp3K8AgAuiFNast6fu7KqfZfrljnHM46nHPkC2VbyOeP6n0f7Nxz+mrpidOX71Io+QgCAulshkQyRX12NiYUrV6YTpFMJklnZ5BqLIBzOAexaJAnm9Is1GP1uvXZptDLG+s52XWT/W1n6bzYD84xWvRRgB0cxg7dA8AaiwJG85P0DRURgZUts3hjzQKWXejk5rFjnr731VHS2zfz0uomtqxqovPCbT491EUsrAHHdMulNhzEIkFan57L7qcaWHy9h7G9BzB1EUJzG9HDX35D3dnLpHZuJrFpDasen0PzggzjhTJUClgsDgsOrDMAvLWtGd15Btd2mMLdIVKvbiO+5UW0GHTToX3MnDkLJSBaIyKkEx7phMdkroCr+JjJMs5amIjgcCxcMAP3yAbY1VoVHwxijEFyOeTXra/1ZOOJpSoQAKWmy3K2gimWmOjpxfl+7aDGa1mChEJTMIK1OOewxnKnmD+kC2e6yXt1KB1AlMI5U1UzTXCtd4DzfUrd56uQ1+B21oE1WGMp+mU0zuGswRlHrUWgBMd/nYATnNQcM+WUWs6p0OKFqyUoQUSBAkSqopzDlScfsJkKe9OKpaZQrIWKQQVAz3l/D9lUGlECopD7OPGHhun/eD92PI8DVDzOrHd3o1MpoAp1bcIYiwwOoJOb1pHMZPBv9TNx8SrOGMLzGwk2zcMODTPwxdfYclWxStSTWL+GQDYzbVFb9ild6MXk+kBC6MrwGIPtpxg5eoLKyCjprc/TValjqC/HjqVxxEtDVFW59lIgisMdfzN/doKVLVlEB1CxKKWeawx830Fge/fk27p/PBNau5LeHTv56FaED9tzJGIeG5obuHf8HM4EIRRDJeup376az3/K8d6Bs/x1fZRYNMS8xbNJvbAcvX7FeR1+ZaPNLVrCwUslfv82x2jBRyIxCIaxCDbSgI2Gq+VFYlgnEAwjkRg/nBvh1LVzPNec4c3WecSVsfqTG7eP/HbixmBx0nI/IbnePn48eY2+kTuYYhmAgIxz5cRJbl0ZxNSetMFhaLvhON6hKssbXYcsWrYi6ovnaR1UnhcmEFCIKJLRANk6zeRAHqZAV4rQjDj9eZ+xksFZgzGW0kQZa3xbKY4Ua7g93DfwfyEi/AtgPeKLT+LVuwAAAABJRU5ErkJggg==" />
-          </router-link>
-          <router-link to="#" class="mail">
+              src="/imgs/tm.webp" />
+          </a>
+          <a class="mail">
             <img style="width: 20px"
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB4ElEQVQ4jZ2VTY4TQQyFP7s8kxAGwoIfCbFGrJAQB+AeHIE915hdLsESiSULTsEJhgUaRUHqiImmy2bRqa7uTqREWGqVy3K9st+rqpaI4ByLCERkNAdGMRFB1uu17nY7SymhqogIEaHnbLLPdXfH3QFaa5rm42KxeK+qw8SzAAEXEVSVnLM3TfPNzOzzcrl8Oyz9f8zd2W63Tw24VFVUlSmf+5ZG/nAEpv5cpwBTO7awgE6FArAIiAD3Q7WnFR87ESVWcOz62lkuHVWh6CLSfd1GNXkMxAgowtlsAlutlNlMSUlIqYK5Q86HAKXDClRzcxYMuoCq9G2XxCpA4TKA4cjEh9Ik7kHbSl/VUIBaZfGHQsiIDquCCKq1Qoiex1rJuP0ecpBnn9KKq/TYVRVRURSXWr2Pl45jEUCgIe4Z50/euPx6efXz+YW9EVVQraxz6uYUmR088Jy5afMXS88SepkQVUKEco2P0T+E6mOx7zdDasH01SXMEyHagQ54ATkCGp1fEvvzk0i7jMUL83hogBLSIzHh/WBegx1ghBN34vZj61+fkH8LTtevTIU4YbG/1+63jX+XD+9eLx5dtPNkprP5A1JKnPccBu5Bzi27u79+f99yc7ttOjrO/A2cMhHhH9lUIJHhFUZiAAAAAElFTkSuQmCC" />
-          </router-link>
+          </a>
+          <a class="mail">
+            <img style="width: 20px"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAEIUlEQVQ4jY2VS2zURRzHP7/Z2d3/bvfZLgsUeVUItKIJPkBEA0J5C0KiB73pgXjwpOFsjAkHL2qiMYF4IcQD4qMQkyqYQjQqFlILQoEiIMujpQ/62Ee3/50ZD7ttIB7kl8wkM8nM7/v75fOdEeccDxPOOUTkgTXwwJ6IIJ8dPKn+6P5HJxMR4nWeUiIgQsujGdY9lmWkrR1bLAGgohFSu7Zy7M87XLo+VLvUMTY+YUfzJZIxr6Lf2Xvk9Xgi/oznBRERlKpm3LF2CesWxhn9rp3K8AgAuiFNast6fu7KqfZfrljnHM46nHPkC2VbyOeP6n0f7Nxz+mrpidOX71Io+QgCAulshkQyRX12NiYUrV6YTpFMJklnZ5BqLIBzOAexaJAnm9Is1GP1uvXZptDLG+s52XWT/W1n6bzYD84xWvRRgB0cxg7dA8AaiwJG85P0DRURgZUts3hjzQKWXejk5rFjnr731VHS2zfz0uomtqxqovPCbT491EUsrAHHdMulNhzEIkFan57L7qcaWHy9h7G9BzB1EUJzG9HDX35D3dnLpHZuJrFpDasen0PzggzjhTJUClgsDgsOrDMAvLWtGd15Btd2mMLdIVKvbiO+5UW0GHTToX3MnDkLJSBaIyKkEx7phMdkroCr+JjJMs5amIjgcCxcMAP3yAbY1VoVHwxijEFyOeTXra/1ZOOJpSoQAKWmy3K2gimWmOjpxfl+7aDGa1mChEJTMIK1OOewxnKnmD+kC2e6yXt1KB1AlMI5U1UzTXCtd4DzfUrd56uQ1+B21oE1WGMp+mU0zuGswRlHrUWgBMd/nYATnNQcM+WUWs6p0OKFqyUoQUSBAkSqopzDlScfsJkKe9OKpaZQrIWKQQVAz3l/D9lUGlECopD7OPGHhun/eD92PI8DVDzOrHd3o1MpoAp1bcIYiwwOoJOb1pHMZPBv9TNx8SrOGMLzGwk2zcMODTPwxdfYclWxStSTWL+GQDYzbVFb9ild6MXk+kBC6MrwGIPtpxg5eoLKyCjprc/TValjqC/HjqVxxEtDVFW59lIgisMdfzN/doKVLVlEB1CxKKWeawx830Fge/fk27p/PBNau5LeHTv56FaED9tzJGIeG5obuHf8HM4EIRRDJeup376az3/K8d6Bs/x1fZRYNMS8xbNJvbAcvX7FeR1+ZaPNLVrCwUslfv82x2jBRyIxCIaxCDbSgI2Gq+VFYlgnEAwjkRg/nBvh1LVzPNec4c3WecSVsfqTG7eP/HbixmBx0nI/IbnePn48eY2+kTuYYhmAgIxz5cRJbl0ZxNSetMFhaLvhON6hKssbXYcsWrYi6ovnaR1UnhcmEFCIKJLRANk6zeRAHqZAV4rQjDj9eZ+xksFZgzGW0kQZa3xbKY4Ua7g93DfwfyEi/AtgPeKLT+LVuwAAAABJRU5ErkJggg==" />
+          </a>
           <a class="mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
           <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
           <span class="search-btn"></span>

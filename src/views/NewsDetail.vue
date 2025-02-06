@@ -32,10 +32,7 @@
                 data-services="odnoklassniki,google,facebook,vkontakte,twitter"></div>
             </div>
             <p>
-              <img decoding="async"
-                class="lazyload alignleft wp-image-3480"
-                :src="news?.img"
-                width="450" height="253"
+              <img decoding="async" class="lazyload alignleft wp-image-3480" :src="news?.img" width="450" height="253"
                 data-sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" />
             </p>
             <p>
@@ -43,23 +40,21 @@
             </p>
           </div>
         </div>
-        <noindex>
-          <Company />
-          <ContactInfo />
-          <a href="tel:99365609009" class="contact-nav-box">
-            <strong class="title">Остались вопросы?<br />
-              Мы Вам перезвоним</strong>
-            <span class="callback">Перезвоните мне</span>
-          </a>
-          <div class="about-content">
-            <div class="clients-container">
-              <h2 class="global-title"><span>Наши клиенты</span></h2>
-              <div class="pb-20">
-                <Partners />
-              </div>
+        <Company />
+        <ContactInfo />
+        <a href="tel:99365609009" class="contact-nav-box">
+          <strong class="title">Остались вопросы?<br />
+            Мы Вам перезвоним</strong>
+          <span class="callback">Перезвоните мне</span>
+        </a>
+        <div class="about-content">
+          <div class="clients-container">
+            <h2 class="global-title"><span>Наши клиенты</span></h2>
+            <div class="pb-20">
+              <Partners />
             </div>
           </div>
-        </noindex>
+        </div>
       </div>
     </div>
     <Footer />
@@ -95,7 +90,6 @@ export default {
   methods: {
     getnewsDetail() {
       this.news = newsData.find(item => item.id == this.$route.params.id)
-      console.log(this.news);
     }
   }
 }
