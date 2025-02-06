@@ -17,7 +17,9 @@
           </a>
           <a class="mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
           <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
-          <span class="search-btn"></span>
+          <a>
+            <Search />
+          </a>
         </div>
       </div>
     </div>
@@ -52,8 +54,12 @@
 
 <script>
 import navItems from '@/data/nav-items.js'
+import Search from '@/components/base/Search.vue';
 export default {
   name: 'Header',
+  components: {
+    Search
+  },
   data() {
     return {
       isOpen: false,

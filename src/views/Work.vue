@@ -24,7 +24,7 @@
                 <div class="projects-content works-content">
                     <div class="projects-list">
                         <ul>
-                            <WorkCard v-for="item in workData" :key="item.id" :bg_img="item.bg_image"
+                            <WorkCard v-for="item in works" :key="item.id" :bg_img="item.bg_image"
                                 :title="item.title" :url="item.link" class="!mb-10" />
                         </ul>
                     </div>
@@ -51,8 +51,18 @@ export default {
     },
     data() {
         return {
-            workData
+            works: null,
+            searchQuery: this.$route.query.q || "",
         }
-    }
+    },
+    created() {
+        this.works = workData.filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
+    },
+    watch: {
+        "$route.query.q"(newQuery) {
+            this.searchQuery = newQuery || "";
+            this.works = workData.filter((work) => work.title.toLowerCase().includes(this.searchQuery.toLowerCase()));
+        },
+    },
 }
 </script>
