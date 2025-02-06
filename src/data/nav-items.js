@@ -9,11 +9,6 @@ export default [
     title: "Услуги",
     url: "/services",
   },
-  // {
-  //   id: "menu-item-1361",
-  //   title: "Технологии",
-  //   url: "#",
-  // },
   {
     id: "menu-item-1023",
     title: "Новости",
