@@ -4,16 +4,16 @@
             <Navbar />
         </Header>
         <div class="main">
-            <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
+            <div class="breadcrumbs container pt-10 !mb-10" itemtype="http://schema.org/BreadcrumbList"
                 id="breadcrumbs">
-                <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
+                <span itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
                         property="item" typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">{{
                             $t('title1') }}</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
                 &gt;
-                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
+                <span itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                    <span itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
                         :title="$t('title74')">
                         <span itemprop="name" property="name">{{ $t('title74') }}</span></span>
                     <meta itemprop="position" property="position" content="2" />

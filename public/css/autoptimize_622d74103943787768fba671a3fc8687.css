@@ -6164,9 +6164,6 @@ header .nav-menu .close {
 .projects-content {
   margin-bottom: 3.33333em;
 }
-.projects-content .global-title:before {
-  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
-}
 .projects-content .projects-list ul {
   font-size: 0;
   margin-left: -2.5%;
@@ -6521,9 +6518,6 @@ header .nav-menu .close {
 }
 .sale-content {
   margin-bottom: 6.66667em;
-}
-.sale-content .global-title:before {
-  /* background: url('/imgs/svg/simvol3.svg') no-repeat; */
 }
 .sale-content ul {
   font-size: 0;
@@ -7737,9 +7731,6 @@ footer .footer-bottom > .container .small-logo:hover {
 .goods-slider {
   margin-bottom: 3.88889em;
 }
-.goods-slider.viewed-goods-slider .global-title:before {
-  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
-}
 .goods-slider ul {
   margin-left: -20px;
 }
@@ -8332,12 +8323,6 @@ footer .footer-bottom > .container:after {
   position: relative;
   padding: 0;
   margin-bottom: 3.88889em;
-}
-.about-content .diplom-container .global-title:before {
-  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
-}
-.about-content .clients-container .global-title:before {
-  /* background: url('/imgs/svg/simvol3.svg') no-repeat; */
 }
 .about-content .about-contact {
   margin-bottom: 4.44444em;
