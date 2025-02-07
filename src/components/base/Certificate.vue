@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2 class="global-title">
-            Сертификаты
+            {{ $t('title79') }}
         </h2>
         <div class="w-full flex items-center justify-start overflow-x-auto mb-10">
             <div v-for="item in 3" class="flex items-center mr-4">

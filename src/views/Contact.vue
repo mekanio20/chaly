@@ -8,46 +8,60 @@
                 id="breadcrumbs">
                 <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
                         property="item" typeof="WebPage" href="/" class="home"><span property="name"
-                            itemprop="name">Главная</span></a>
+                            itemprop="name">{{ $t('title1') }}</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
                 &gt;
                 <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                     <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
-                        title="Контакты">
-                        <span itemprop="name" property="name">Контакты</span></span>
+                        :title="$t('title52')">
+                        <span itemprop="name" property="name">{{ $t('title52') }}</span></span>
                     <meta itemprop="position" property="position" content="2" />
                 </span>
             </div>
             <div class="container">
-                <h1 class="global-title">Контакты</h1>
+                <h1 class="global-title">-{{ $t('title52') }}</h1>
                 <div class="text-wrap">
-                    <h2>Полные реквизиты ООО «Chaly» trading service</h2>
+                    <h2>
+                        {{ $t('title53') }}
+                    </h2>
                     <p>
-                        Юридический адрес: Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
+                        {{ $t('title54') }} Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
                         <br />
                     </p>
                     <p>&nbsp;</p>
-                    <h2>Как пройти в офис</h2>
+                    <h2>
+                        {{ $t('title55') }}
+                    </h2>
                 </div>
                 <ul class="contact-info-box">
                     <li class="row-1">
-                        <strong class="title">Фактический адрес</strong>
+                        <strong class="title">
+                            {{ $t('title56') }}
+                        </strong>
                         <address>
                             Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
                         </address>
                     </li>
                     <li class="row-1">
-                        <strong class="title">Телефон</strong>
+                        <strong class="title">
+                            {{ $t('title57') }}
+                        </strong>
                         <a class="phone" href="tel:99365609009">+993 (65) 60-90-09</a>
                     </li>
                     <li class="row-1">
-                        <strong class="title">E-mail</strong>
+                        <strong class="title">
+                            {{ $t('title58') }}
+                        </strong>
                         <a href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
                     </li>
                     <li class="row-1">
-                        <strong class="title">График работы</strong>
-                        <span class="schedule">ПН-ПТ с 09:00 до 18:00</span>
+                        <strong class="title">
+                            {{ $t('title59') }}
+                        </strong>
+                        <span class="schedule">
+                            {{ $t('title60') }}
+                        </span>
                     </li>
                     <li class="clearfix"></li>
                 </ul>
@@ -55,9 +69,14 @@
                     <div id="map" class="map"></div>
                 </div>
                 <a href="tel:99365609009" class="contact-nav-box">
-                    <strong class="title">Остались вопросы?<br />
-                        Мы Вам перезвоним</strong>
-                    <span class="callback">Перезвоните мне</span>
+                    <strong class="title">
+                        {{ $t('title61') }}
+                        <br />
+                        {{ $t('title62') }}    
+                    </strong>
+                    <span class="callback">
+                        {{ $t('title63') }}
+                    </span>
                 </a>
             </div>
             <div class="!h-max[40px]">

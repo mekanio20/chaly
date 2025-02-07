@@ -7,21 +7,21 @@
             <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
                 id="breadcrumbs">
                 <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
-                        property="item" typeof="WebPage" title="АСГАРД-Сервис." href="../index.html" class="home"><span
-                            property="name" itemprop="name">Главная</span></a>
+                        property="item" typeof="WebPage" href="/" class="home"><span
+                            property="name" itemprop="name">{{ $t('title1') }}</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
                 &gt;
                 <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%" title="Новости">
+                    <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%" :title="$t('title71')">
                         <span itemprop="name" property="name">
-                            Новости
+                            {{ $t('title71') }}
                         </span></span>
                     <meta itemprop="position" property="position" content="2" />
                 </span>
             </div>
             <div class="container">
-                <h1 class="global-title">Новости</h1>
+                <h1 class="global-title">-{{ $t('title71') }}</h1>
                 <div class="projects-content works-content">
                     <div class="projects-list">
                         <ul>
@@ -30,7 +30,9 @@
                                     <h2 class="title !pt-2">{{ item.name }}</h2>
                                     <img :src="news_images[index]" class="w-full h-full object-cover" />
                                     <div class="text">
-                                        <span class="mark-link opacity-80">Подробнее</span>
+                                        <span class="mark-link opacity-80">
+                                            {{ $t('title72') }}
+                                        </span>
                                     </div>
                                 </router-link>
                             </li>

@@ -7,26 +7,26 @@
             <div class="breadcrumbs container pt-10 !mb-10" itemscope="" itemtype="http://schema.org/BreadcrumbList"
                 id="breadcrumbs">
                 <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
-                        property="item" typeof="WebPage" href="/" class="home"><span property="name"
-                            itemprop="name">Главная</span></a>
+                        property="item" typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">{{
+                            $t('title1') }}</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
                 &gt;
                 <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                     <span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
-                        title="Наши услуги">
-                        <span itemprop="name" property="name">Наши услуги</span></span>
+                        :title="$t('title74')">
+                        <span itemprop="name" property="name">{{ $t('title74') }}</span></span>
                     <meta itemprop="position" property="position" content="2" />
                 </span>
             </div>
             <div class="container">
-                <h1 class="global-title">Наши услуги</h1>
+                <h1 class="global-title">-{{ $t('title74') }}</h1>
                 <div class="projects-content services-content">
                     <div class="our-services-content">
                         <div class="services-box !px-0">
-                            <router-link to="/services/" class="title"><span>Предприятия промышленные, предприятия
-                                    нефтепереработки и
-                                    нефтехимии</span><i class="figure"></i></router-link>
+                            <router-link to="/services/" class="title"><span>
+                                    {{ $t('title75') }}
+                                </span><i class="figure"></i></router-link>
                             <ul>
                                 <li v-for="item in service" :key="item.id">
                                     <router-link :to="item.url">
@@ -41,27 +41,13 @@
                     <div class="text-scroll">
                         <div>
                             <p>
-                                В сферу деятельности компании «Chaly» trading service входят очистка и
-                                монтаж оборудования – мы оказываем услуги для энергетических и
-                                нефтеперерабатывающих предприятий, а также проводим сервисные
-                                работы по наладке инженерных систем зданий и сооружений.
+                                {{ $t('title76') }}
                             </p>
                             <p>
-                                Все работы по очистке нефтепроводов, монтажу оборудования и
-                                т.д. проводятся с использованием специального оборудования
-                                силами квалифицированных специалистов, что позволяет
-                                гарантировать каждому клиенту высокое качество, сокращение
-                                времени простоя оборудования и экономичный расход бюджетных
-                                средств. Выбор технологии и способа выполнения работ
-                                производится на основе полного анализа состояния системы:
-                                особенностей конструкции и срока эксплуатации. Благодаря
-                                такому подходу обеспечивается безопасность сотрудников и
-                                сохранность оборудования.
+                                {{ $t('title77') }}
                             </p>
                             <p>
-                                Чтобы узнать подробную информацию об услугах и применяемых
-                                методах, позвоните нам по телефону +993 (65) 60-90-09 или
-                                напишите на электронную почту info@asgard-service.com
+                                {{ $t('title78') }}
                             </p>
                         </div>
                     </div>

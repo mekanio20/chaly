@@ -28,7 +28,7 @@
             class="sm:w-4/5 md:w-1/4 w-full px-4 py-3 text-lg font-fira_sans text-m_gray-100 border-t-0 border-l-0 border-r-0 border-b-1 border-m_blue-100 focus:outline-none focus:ring-0 focus:border-m_blue-100 bg-transparent uppercase" />
           <button @click="search"
             class="mt-6 px-10 py-3 bg-m_blue-100 text-white text-lg font-medium rounded-lg shadow-md hover:opacity-80 transition duration-300">
-            Search
+            {{ $t('title88') }}
           </button>
         </div>
       </div>

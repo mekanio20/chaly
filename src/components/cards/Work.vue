@@ -4,7 +4,9 @@
             <h2 class="title !pt-2">{{ title }}</h2>
             <img :src="bg_img" class="w-full h-full object-contain" />
             <div class="text">
-                <span class="mark-link opacity-80">Подробнее</span>
+                <span class="mark-link opacity-80">
+                    {{ $t('title72') }}
+                </span>
             </div>
         </router-link>
     </li>

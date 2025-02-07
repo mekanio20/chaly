@@ -46,7 +46,9 @@
           </router-link>
         </div>
         <slot></slot>
-        <a href="tel:+99365609009" class="callback"><span class="icon-border"></span>Обратный звонок</a>
+        <a href="tel:+99365609009" class="callback"><span class="icon-border"></span>
+          {{ $t('title98') }}
+        </a>
       </div>
     </div>
   </header>

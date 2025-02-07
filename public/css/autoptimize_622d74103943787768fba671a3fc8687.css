@@ -5973,8 +5973,8 @@ header .nav-menu .close {
   width: 22px;
   height: 30px;
   display: inline-block;
-  margin-right: 10px;
-  background: url('/imgs/svg/simvol1.svg') no-repeat;
+  /* margin-right: 10px; */
+  /* background: url('/imgs/svg/simvol1.svg') no-repeat; */
 }
 .about-home {
   margin-bottom: 0.55556em;
@@ -6165,7 +6165,7 @@ header .nav-menu .close {
   margin-bottom: 3.33333em;
 }
 .projects-content .global-title:before {
-  background: url('/imgs/svg/simvol2.svg') no-repeat;
+  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
 }
 .projects-content .projects-list ul {
   font-size: 0;
@@ -6523,7 +6523,7 @@ header .nav-menu .close {
   margin-bottom: 6.66667em;
 }
 .sale-content .global-title:before {
-  background: url('/imgs/svg/simvol3.svg') no-repeat;
+  /* background: url('/imgs/svg/simvol3.svg') no-repeat; */
 }
 .sale-content ul {
   font-size: 0;
@@ -7738,7 +7738,7 @@ footer .footer-bottom > .container .small-logo:hover {
   margin-bottom: 3.88889em;
 }
 .goods-slider.viewed-goods-slider .global-title:before {
-  background: url('/imgs/svg/simvol2.svg') no-repeat;
+  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
 }
 .goods-slider ul {
   margin-left: -20px;
@@ -8334,10 +8334,10 @@ footer .footer-bottom > .container:after {
   margin-bottom: 3.88889em;
 }
 .about-content .diplom-container .global-title:before {
-  background: url('/imgs/svg/simvol2.svg') no-repeat;
+  /* background: url('/imgs/svg/simvol2.svg') no-repeat; */
 }
 .about-content .clients-container .global-title:before {
-  background: url('/imgs/svg/simvol3.svg') no-repeat;
+  /* background: url('/imgs/svg/simvol3.svg') no-repeat; */
 }
 .about-content .about-contact {
   margin-bottom: 4.44444em;

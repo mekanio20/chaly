@@ -6,7 +6,7 @@
     <div class="main">
       <div class="breadcrumbs container pt-10 !mb-10" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs">
         <span itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" property="item"
-            typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">Главная</span></a>
+            typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">{{ $t('title1') }}</span></a>
           <meta property="position" itemprop="position" content="1" />
         </span>
         &gt;
@@ -20,7 +20,7 @@
         </span>
       </div>
       <div class="container">
-        <h1 class="global-title">
+        <h1 class="global-title">-
           {{ news?.name }}
         </h1>
         <div class="news-contant">
@@ -43,13 +43,20 @@
         <Company />
         <ContactInfo />
         <a href="tel:99365609009" class="contact-nav-box">
-          <strong class="title">Остались вопросы?<br />
-            Мы Вам перезвоним</strong>
-          <span class="callback">Перезвоните мне</span>
+          <strong class="title">
+            {{ $t('title61') }}
+            <br />
+            {{ $t('title62') }}  
+          </strong>
+          <span class="callback">
+            {{ $t('title63') }}
+          </span>
         </a>
         <div class="about-content">
           <div class="clients-container">
-            <h2 class="global-title"><span>Наши клиенты</span></h2>
+            <h2 class="global-title"><span>
+              {{ $t('title13') }}
+            </span></h2>
             <div class="pb-20">
               <Partners />
             </div>

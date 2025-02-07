@@ -1,6 +1,8 @@
 <template>
     <div>
-        <strong class="global-title"><span>Наши контакты</span></strong>
+        <strong class="global-title"><span>
+            {{ $t('title87') }}
+        </span></strong>
         <ul class="contact-info-box">
             <li class="row-1">
                 <address>
@@ -14,7 +16,9 @@
                 <a href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
             </li>
             <li class="row-1">
-                <span class="schedule">ПН-ПТ с 09:00 до 18:00</span>
+                <span class="schedule">
+                    {{ $t('title60') }}
+                </span>
             </li>
             <li class="clearfix"></li>
         </ul>
