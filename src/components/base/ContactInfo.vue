@@ -6,7 +6,7 @@
         <ul class="contact-info-box">
             <li class="row-1">
                 <address>
-                    Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
+                   г. Ашхабад, ул. Б. Аннанов, 219
                 </address>
             </li>
             <li class="row-1">

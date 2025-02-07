@@ -7,8 +7,8 @@
             <div class="breadcrumbs container pt-10 !mb-10" itemtype="http://schema.org/BreadcrumbList"
                 id="breadcrumbs">
                 <span itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item"
-                        property="item" typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">{{
-                            $t('title1') }}</span></a>
+                        property="item" typeof="WebPage" href="/" class="home"><span property="name" itemprop="name">
+                            {{ $t('title1') }}</span></a>
                     <meta property="position" itemprop="position" content="1" />
                 </span>
                 &gt;

@@ -26,7 +26,7 @@
                         {{ $t('title53') }}
                     </h2>
                     <p>
-                        {{ $t('title54') }} Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
+                        {{ $t('title54') }}г. Ашхабад, ул. Б. Аннанов, 219
                         <br />
                     </p>
                     <p>&nbsp;</p>
@@ -40,7 +40,7 @@
                             {{ $t('title56') }}
                         </strong>
                         <address>
-                            Ahal wel, Ak bugdaý etr, Änew şäh, "Industriýal" köç, jaý "B"
+                           г. Ашхабад, ул. Б. Аннанов, 219
                         </address>
                     </li>
                     <li class="row-1">

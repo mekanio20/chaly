@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 export default {
     name: "Map",
     mounted() {
-        let map = L.map('map').setView([37.922879377440566, 58.51094409382674], 15)
+        let map = L.map('map').setView([37.939980618987676, 58.4341151350645], 15)
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 14,
@@ -19,7 +19,7 @@ export default {
             iconAnchor: [16, 32],
         });
 
-        L.marker([37.922879377440566, 58.51094409382674]).addTo(map)
+        L.marker([37.939980618987676, 58.4341151350645]).addTo(map)
     }
 }
 

@@ -7,7 +7,7 @@
           data-sizes="(max-width: 80px) 100vw, 80px" />
     </router-link>
     <div class="info">
-      <time style="background-image: url('/imgs/news-icon-1.svg');" class="time" datetime="2023-05-29">{{ date }}</time>
+      <time class="time" datetime="2023-05-29">{{ date }}</time>
       <router-link :to="url">{{ title }}</router-link>
     </div>
   </li>

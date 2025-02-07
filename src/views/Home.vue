@@ -13,16 +13,13 @@
                                     {{ $t('title64') }}
                                 </span>
                             </p>
-                            <p class="first-paragraph py-8">
-                                {{ $t('title65') }}
-                            </p>
-                            <p>
-                                <span class="text-black font-medium">{{ $t('title66') }}</span><br /> <br>
-                                    {{ $t('title67') }}
-                                <br />
+                            <p style="margin-top: -30px;">
+                                <span class="text-black font-medium"></span><br /> <br>
+                                    {{ $t('title65') }}
+                                <br /> <br>
                                     {{ $t('title68') }}
                                 <br />
-                                    {{ $t('title69') }}
+                                    <!-- {{ $t('title69') }} -->
                             </p>
                         </div>
                     </div>
@@ -34,14 +31,14 @@
                         {{ $t('title70') }}
                     </strong>
                     <aside class="sidebar-news">
-                        <router-link to="/news"
+                        <!-- <router-link to="/news"
                             class="py-[10px] text-center mb-[30px] leading-[20px] rounded-full block font-normal hover:text-white text-white uppercase bg-m_red-100 hover:opacity-80 duration-300">
                             {{ $t('title71') }}<i
                                 class="figure"></i></router-link>
                         <ul>
                             <NewsCard v-for="(item, index) in news" :key="item.id" :url="item.url" :title="item.name"
                                 :date="item.date" :image="news_images[index]" />
-                        </ul>
+                        </ul> -->
                     </aside>
                     <div class="projects-list">
                         <ul>

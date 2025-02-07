@@ -84,31 +84,20 @@ const messages = {
     title62: "Biz size jaň ederis",
     title63: "Meniň bilen habarlaşyň",
     // HOME
-    title64:
-      "ÇALY – 2007-nji ýyldan bäri Türkmenistanda gurluşyk materiallaryny öndürýär",
-    title65:
-      "«CHALY» kompaniýasy islendik gurluşyk taslamasynyň dowamlylygyny we ygtybarlylygyny üpjün edýän ýokary hilli gurluşyk materiallaryny bermek maksady bilen esaslandyryldy.",
-    title66: "Gymmatlyklar",
-    title67:
-      "– Ulgam. Biz önümçiligimiziň ähli basgançaklarynda berk gözegçilik geçirip, materiallarymyzyň hiline aýratyn üns berýäris.",
-    title68:
-      "– Täzelikler. Biziň önümimiziň gowulandyrylmagy üçin ylmy barlaglara we işlenmelere hemişelik maýa goýberýäris.",
-    title69:
-      "– Hünärmentçilik. Biziň toparymyz siziň taslamalaryňyz üçin iň gowy çözgütleri hödürlemäge taýýar bolan tejribeli hünärmenlerden ybarat.",
+    title64: "«Çaly-Serwis» kompaniýasy",
+    title65: "«Çaly» kompaniýasy ýokary hilli gurluşyk materiallaryny üpjün etmek maksady bilen esaslandyryldy. Bu materiallar islendik gurluşyk taslamasynyň ygtybarlylygyny we uzak möhletleýinligini kepillendirýär. Biz köp ýyllyk tejribämiz bilen gurluşyk pudagynda iň ýokary standartlara laýyk gelýän önümleri hödürleýän ynamdar hyzmatdaş hökmünde tanalýarys.",
+    title67: "«Çaly» kompaniýasy 2007-nji ýylda islendik gurluşyk desgasynyň uzak möhletleýinligini we ygtybarlylygyny üpjün edýän ýokary hilli gurluşyk materiallaryny öndürmek maksady bilen esaslandyryldy.",
+    title68: "Köp ýyllyk tejribäniň dowamynda kompaniýa iş ugurlaryny ep-esli giňeltdi we iň ýokary hil standartlaryna laýyk gelýän önümleri hem-de hyzmatlary hödürleýär.",
     title70: "Işlerimiz",
     title71: "Täzelikler",
     title72: "Has giňişleýin",
     title73: "Ähli işler",
     // SERVICE
     title74: "Hyzmatlarymyz",
-    title75:
-      "Senagat kärhanalary, nebit gaýtadan işleýiş we nebithimiýa kompaniýalary",
-    title76:
-      "«Chaly» Trading Service-iň iş ugruna enjamlary arassalamak we gurnamak girýär – biz energiýa we nebiti gaýtadan işleýän kärhanalara hyzmat berýäris, şeýle hem binalaryň we desgalaryň inžener ulgamlaryny sazlamak boýunça hyzmatlary ýerine ýetirýäris.",
-    title77:
-      "Turba arassalamak, enjam gurnamak we ş.m. bilen baglanyşykly ähli işler ýöriteleşdirilen enjamlar arkaly ýokary derejeli hünärmenler tarapyndan ýerine ýetirilýär, bu bolsa ýokary hilli, enjamlaryň işden çykma wagtynyň azalmagyna we býudjet serişdeleriniň tygşytly sarp edilmegine mümkinçilik berýär. Ulanylýan tehnologiýanyň we ýerine ýetiriş usulynyň saýlanylyşy ulgamyň ýagdaýynyň, taslama aýratynlyklarynyň we ulanyş möhletiniň çuňňur seljermesine esaslanýar. Bu çemeleşme işgärleriň howpsuzlygyny we enjamlaryň abadan saklanylmagyny üpjün edýär.",
-    title78:
-      "Hyzmatlarymyz we ulanylýan usullarymyz barada giňişleýin maglumat almak üçin bize (65) 60-90-09 telefon belgisi arkaly jaň ediň.",
+    title75: "Senagat kärhanalary, nebit gaýtadan işleýiş we nebithimiýa kompaniýalary",
+    title76: "«Chaly» Trading Service-iň iş ugruna enjamlary arassalamak we gurnamak girýär - biz energiýa we nebiti gaýtadan işleýän kärhanalara hyzmat berýäris, şeýle hem binalaryň we desgalaryň inžener ulgamlaryny sazlamak boýunça hyzmatlary ýerine ýetirýäris.",
+    title77: "Turba arassalamak, enjam gurnamak we ş.m. bilen baglanyşykly ähli işler ýöriteleşdirilen enjamlar arkaly ýokary derejeli hünärmenler tarapyndan ýerine ýetirilýär, bu bolsa ýokary hilli, enjamlaryň işden çykma wagtynyň azalmagyna we býudjet serişdeleriniň tygşytly sarp edilmegine mümkinçilik berýär. Ulanylýan tehnologiýanyň we ýerine ýetiriş usulynyň saýlanylyşy ulgamyň ýagdaýynyň, taslama aýratynlyklarynyň we ulanyş möhletiniň çuňňur seljermesine esaslanýar. Bu çemeleşme işgärleriň howpsuzlygyny we enjamlaryň abadan saklanylmagyny üpjün edýär.",
+    title78: "Hyzmatlarymyz we ulanylýan usullarymyz barada giňişleýin maglumat almak üçin bize (65) 60-90-09 telefon belgisi arkaly jaň ediň.",
     // COMPONENTS
     title79: "Sertifikatlar",
     title80: "Kompaniýanyň Üstünlikleri",
@@ -136,8 +125,8 @@ const messages = {
     // ABOUT
     title1: "Главная",
     title2: "О компании",
-    title3: "«CHALY» trading service",
-    title4: "− является сервисной компанией группы компаний «CHALY».",
+    title3: "«Чалы» trading service",
+    title4: "− является сервисной компанией группы компаний «Чалы».",
     title5: "Основное направление",
     title6:
       "это оказании услуг по сервису, очистке и монтажу технологического оборудования на предприятиях малой и крупной энергетики, нефтепереработки и нефтетранспортировки.",
@@ -158,15 +147,15 @@ const messages = {
     // CAREER
     title19: "Карьера",
     title20:
-      "Коллектив компании ООО «Chaly» trading service &#8212; её основная ценность.",
+      "Коллектив компании ООО «Чалы» trading service её основная ценность.",
     title21:
       "Мы ценим в своих работниках стремление к достижению результата, готовность работать в команде и брать на себя ответственность.",
     title22:
-      "ООО «Chaly» trading service предоставляет широкие возможности для раскрытия собственного потенциала и карьерного роста своих работников. Наш коллектив &#8212; это команда профессионалов, которая реализует сложные технические проекты на предприятиях нефтегазового сектора и энергетики.",
+      "ООО «Чалы» trading service предоставляет широкие возможности для раскрытия собственного потенциала и карьерного роста своих работников. Наш коллектив это команда профессионалов, которая реализует сложные технические проекты на предприятиях нефтегазового сектора и энергетики.",
     title23:
-      "Готовность и способность персонала плодотворно работать, развиваться, учиться новому  &#8212; залог долгосрочного совместного успеха. Мы уделяем серьезное внимание повышению профессионального уровня коллектива, проводим внутрикорпоративное и внешнее обучение.",
+      "Готовность и способность персонала плодотворно работать, развиваться, учиться новому  залог долгосрочного совместного успеха. Мы уделяем серьезное внимание повышению профессионального уровня коллектива, проводим внутрикорпоративное и внешнее обучение.",
     title24:
-      "Демократичный стиль управления позволяет нашим сотрудникам чувствовать себя частью команды и активно участвовать в развитии компании. Мы приветствуем инновационные идеи и нестандартные решения сотрудников. Доверие и сотрудничество – на этих постулатах строится корпоративная культура Chaly.",
+      "Демократичный стиль управления позволяет нашим сотрудникам чувствовать себя частью команды и активно участвовать в развитии компании. Мы приветствуем инновационные идеи и нестандартные решения сотрудников. Доверие и сотрудничество – на этих постулатах строится корпоративная культура Чалы.",
     title25:
       "В связи с развитием новых направлений, и увеличением объемов работ, представляем вашему вниманию открытые вакансии:",
     title26: "Вакансия 1: Инженер объекта",
@@ -206,7 +195,7 @@ const messages = {
       "Если вы хотите стать частью нашей команды, вы можете отправить свое резюме по адресу",
     // CONTACT
     title52: "Контакты",
-    title53: "Полные реквизиты ООО «Chaly» trading service",
+    title53: "Полные реквизиты ООО «Чалы» trading service",
     title54: "Юридический адрес:",
     title55: "Как пройти в офис",
     title56: "Фактический адрес",
@@ -219,16 +208,13 @@ const messages = {
     title63: "Перезвоните мне",
     // HOME
     title64:
-      "ÇALY производитель строительных материалов в Туркменистане с 2007 года",
+      "Компания «Чалы-Сервис»",
     title65:
-      'Компания "CHALY" была основана с целью предоставления высококачественных строительных материалов, обеспечивающих надежность и долговечность любого строительного проекта. За годы работы мы зарекомендовали себя как надежный партнер, предлагая продукцию, соответствующую самым высоким стандартам в строительной отрасли.',
-    title66: "Ценности",
+      'Компания "«Чалы" была основана с целью предоставления высококачественных строительных материалов, обеспечивающих надежность и долговечность любого строительного проекта. За годы работы мы зарекомендовали себя как надежный партнер, предлагая продукцию, соответствующую самым высоким стандартам в строительной отрасли.',
     title67:
-      "– Система. Мы осуществляем строгий контроль на всех этапах производства, уделяя особое внимание качеству наших материалов.",
+      "–Компания «Çaly» основана в 2007 году с целью производства высококачественных строительных материалов, обеспечивающих долговечность и надежность любых строительных объектов.",
     title68:
-      "– Инновации. Мы постоянно инвестируем в научные исследования и разработки для улучшения нашей продукции.",
-    title69:
-      "– Мастерство. Наша команда состоит из опытных специалистов, готовых предложить лучшие решения для ваших проектов.",
+      "За годы работы компания значительно расширила направления деятельности, предлагая продукцию и услуги, соответствующие самым высоким стандартам качества.",
     title70: "Наши работы",
     title71: "Новости",
     title72: "Подробнее",
@@ -238,11 +224,11 @@ const messages = {
     title75:
       "Предприятия промышленные, предприятия нефтепереработки и нефтехимии",
     title76:
-      "В сферу деятельности компании «Chaly» trading service входят очистка и монтаж оборудования – мы оказываем услуги для энергетических и нефтеперерабатывающих предприятий, а также проводим сервисные работы по наладке инженерных систем зданий и сооружений.",
+      "В сферу деятельности компании «Чалы» trading service входят очистка и монтаж оборудования – мы оказываем услуги для энергетических и нефтеперерабатывающих предприятий, а также проводим сервисные работы по наладке инженерных систем зданий и сооружений.",
     title77:
       "Все работы по очистке нефтепроводов, монтажу оборудования и т.д. проводятся с использованием специального оборудования силами квалифицированных специалистов, что позволяет гарантировать каждому клиенту высокое качество, сокращение времени простоя оборудования и экономичный расход бюджетных средств. Выбор технологии и способа выполнения работ производится на основе полного анализа состояния системы: особенностей конструкции и срока эксплуатации. Благодаря такому подходу обеспечивается безопасность сотрудников и сохранность оборудования.",
     title78:
-      "Чтобы узнать подробную информацию об услугах и применяемых методах, позвоните нам по телефону +993 (65) 60-90-09 или напишите на электронную почту info@asgard-service.com",
+      "Чтобы узнать подробную информацию об услугах и применяемых методах, позвоните нам по телефону +993 (65) 60 90 09 или напишите на электронную почту info@asgard-service.com",
     // COMPONENTS
     title79: "Сертификаты",
     title80: "Преимущества компании",
@@ -352,17 +338,10 @@ const messages = {
     title62: "We will call you back",
     title63: "Call me back",
     // HOME
-    title64:
-      "CHALY is a manufacturer of building materials in Turkmenistan since 2007",
-    title65:
-      "The company 'CHALY' was founded with the aim of providing high-quality building materials that ensure the reliability and durability of any construction project. Over the years, we have established ourselves as a reliable partner, offering products that meet the highest standards in the construction industry.",
-    title66: "Values",
-    title67:
-      "− System. We maintain strict control at all stages of production, paying special attention to the quality of our materials.",
-    title68:
-      "− Innovation. We constantly invest in scientific research and development to improve our products.",
-    title69:
-      "− Mastery. Our team consists of experienced specialists ready to offer the best solutions for your projects.",
+    title64: "Çaly-Service Company",
+    title65: "The Çaly company was founded with the goal of providing high-quality construction materials that ensure the reliability and durability of any construction project. Over the years, we have established ourselves as a reliable partner, offering products that meet the highest standards in the construction industry.",
+    title67: "Çaly company was founded in 2007 with the aim of producing high-quality construction materials that ensure the durability and reliability of any construction facility.",
+    title68: "Over the years, the company has significantly expanded its areas of activity, offering products and services that meet the highest quality standards.",
     title70: "Our Works",
     title71: "News",
     title72: "More details",
@@ -376,7 +355,7 @@ const messages = {
     title77:
       "All work on cleaning pipelines, equipment installation, etc., is carried out using specialized equipment by qualified specialists, ensuring high quality, reducing equipment downtime, and efficient use of budget funds. The choice of technology and method of work is based on a comprehensive analysis of the system's condition, design features, and service life. This approach ensures the safety of employees and the preservation of equipment.",
     title78:
-      "For more detailed information about services and applied methods, call us at +993 (65) 60-90-09 or email info@asgard-service.com",
+      "For more detailed information about services and applied methods, call us at +993 (65) 60 90 09 or email info@asgard-service.com",
     // COMPONENTS
     title79: "Certificates",
     title80: "Company Advantages",

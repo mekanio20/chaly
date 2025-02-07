@@ -4,306 +4,406 @@ export default {
     "/imgs/service-2.webp",
     "/imgs/service-3.webp",
     "/imgs/service-4.webp",
-    "/imgs/service-5.webp",
-    "/imgs/service-6.webp",
-    "/imgs/service-7.webp",
-    "/imgs/service-8.webp",
   ],
   tm: [
     {
       id: 1,
-      name: "Nebiti gaýtadan işleýiş we Himiýa senagaty",
-      title:
-        "«Çaly» kompaniýasy nebit-gaz gurluşygy pudagynda toplumlaýyn çözgütleri hödürleýär...",
-      desc: "Biz häzirki zaman tehnologiýalary we materiallary ulanýarys...",
+      name: "Neft gaýtadan işleýän we himiýa kärhanalaryna hyzmat",
+      title: "«Çaly» kompaniýasy şu hyzmatlary hödürleýär:",
+      desc: "Biz häzirki zaman tehnologiýalaryny we materiallary ulanýarys...",
+      services: [
+        {
+          id: 1,
+          name: "Rezervuarlary arassalamak",
+          img: "/imgs/service-1-1.webp",
+        },
+        {
+          id: 2,
+          name: "Rezervuarlary gurnamak we sökmek",
+          img: "/imgs/service-1-2.webp",
+        },
+        {
+          id: 3,
+          name: "Turba geçirijilerde ýangyn howpsuzlygyny üpjün etmek",
+          img: "/imgs/service-1-3.webp",
+        },
+        {
+          id: 4,
+          name: "Separatorlary bejermek",
+          img: "/imgs/service-1-4.webp",
+        },
+        {
+          id: 5,
+          name: "Rezervuarlary izolýasiýa etmek",
+          img: "/imgs/service-1-5.webp",
+        },
+        {
+          id: 6,
+          name: "Ýylalma çalşyjy abzallary bejermek",
+          img: "/imgs/service-1-6.webp",
+        },
+        {
+          id: 7,
+          name: "Gaz geçiriji turbalary gurnamak",
+          img: "/imgs/service-1-7.webp",
+        },
+        {
+          id: 8,
+          name: "Awtonom ulgamlar we ölçeg enjamlary",
+          img: "/imgs/service-1-8.webp",
+        },
+      ],
       image: "/imgs/service-1.webp",
       url: "/services/1",
     },
     {
       id: 2,
-      name: "Wideo gözegçilik we Ýangyn ulgamy",
+      name: "Wideo gözegçilik, signalizasiýa we ýangyn howpsuzlyk ulgamlaryny gurnamak we hyzmat",
       title:
-        "«Çaly» kompaniýasy nebit-gaz gurluşygy pudagynda toplumlaýyn çözgütleri hödürleýär...",
-      desc: "Biz ulgamlary işläp düzüp, gurnap we hyzmat edip bileris...",
+        "«Çaly» kompaniýasy wideo gözegçilik, signalizasiýa we ýangyn howpsuzlygy boýunça çözgütleri hödürleýär.",
+      desc: "Biz ulgamlary dizaýn edýäris, gurnap we hyzmat edip berýäris...",
+      services: [
+        {
+          id: 1,
+          name: "Wideo gözegçilik ulgamlaryny gurnamak",
+          img: "/imgs/service-2-1.webp",
+        },
+        {
+          id: 2,
+          name: "Wideo gözegçilik ulgamlaryna hyzmat etmek",
+          img: "/imgs/service-2-2.webp",
+        },
+        {
+          id: 3,
+          name: "Signalizasiýa ulgamlaryny gurnamak",
+          img: "/imgs/service-2-3.webp",
+        },
+        {
+          id: 4,
+          name: "Signalizasiýa ulgamlaryna hyzmat etmek",
+          img: "/imgs/service-2-4.webp",
+        },
+        {
+          id: 5,
+          name: "Ýangyn howpsuzlyk ulgamlaryny gurnamak",
+          img: "/imgs/service-2-5.webp",
+        },
+        {
+          id: 6,
+          name: "Ýangyn howpsuzlyk ulgamlaryna hyzmat etmek",
+          img: "/imgs/service-2-6.webp",
+        },
+      ],
       image: "/imgs/service-2.webp",
       url: "/services/2",
     },
     {
       id: 3,
-      name: "Howa sowadyjyly Çillerler",
-      title:
-        "«Çaly» kompaniýasy senagat we kommersiýa desgalary üçin ygtybarly we energiýa tygşytlaýan sowadyş çözgütlerini hödürleýär...",
-      desc: "Biz enjamlary saýlamakdan başlap, gurnamak we sazlamak hyzmatlaryna çenli doly hyzmat hödürleýäris...",
+      name: "Kondisioner ulgamlaryny gurnamak we hyzmat etmek",
+      title: "«Çaly» kompaniýasy şu hyzmatlary hödürleýär:",
+      desc: "Biz enjamlary saýlap almadan başlap, gurnama we hyzmat işlerini ýerine ýetirýäris...",
+      services: [
+        { id: 1, name: "Çillerleri gurnamak", img: "/imgs/service-3-1.webp" },
+        {
+          id: 2,
+          name: "Çillerlere hyzmat etmek",
+          img: "/imgs/service-3-2.webp",
+        },
+        {
+          id: 3,
+          name: "WRV ulgamlaryny gurnamak",
+          img: "/imgs/service-3-3.webp",
+        },
+        {
+          id: 4,
+          name: "WRV ulgamlaryna hyzmat etmek",
+          img: "/imgs/service-3-4.webp",
+        },
+        {
+          id: 5,
+          name: "Howa çalşygy ulgamlaryny gurnamak",
+          img: "/imgs/service-3-5.webp",
+        },
+        {
+          id: 6,
+          name: "Howa çalşygy ulgamlaryna hyzmat etmek",
+          img: "/imgs/service-3-6.webp",
+        },
+      ],
       image: "/imgs/service-3.webp",
       url: "/services/3",
     },
     {
       id: 4,
-      name: "Izogam gidroizolýasiýa rulon materialy",
+      name: "Izolýasiýa materiallaryny öndürmek we gurnamak",
       title:
-        "«Çaly» kompaniýasy Izogam mastikasyny öndürmek we üpjün etmek bilen meşgullanýar...",
+        "«Çaly» kompaniýasy dürli izolýasiýa materiallaryny öndürýär we hyzmatlary hödürleýär:",
       desc: "",
+      services: [
+        { id: 1, name: "Gidroizolýasiýa", img: "/imgs/service-4-1.webp" },
+        { id: 2, name: "Ýyladyş izolýasiýasy", img: "/imgs/service-4-2.webp" },
+        { id: 3, name: "Ses izolýasiýasy", img: "/imgs/service-4-3.webp" },
+      ],
       image: "/imgs/service-4.webp",
       url: "/services/4",
     },
-    {
-      id: 5,
-      name: "Nebiti gaýtadan işleýän we himiki kärhanalara hyzmat etmek",
-      title: "",
-      desc: `«Çaly» kompaniýasy şu hyzmatlary hödürleýär:
-      - rezervuarlary arassalamak (10 müň kub metre çenli);
-      - separatorlary bejermek;
-      - ýylylyk çalşyjy enjamlary bejermek;
-      - rezervuarlary gurnamak we sökmek;
-      - rezervuarlary izolirlemek;
-      - gaz geçiriji turbalary oturtmak;
-      - turbalarda ýangyn howpsuzlygyny üpjün etmek;
-      - suw üpjünçiligi;
-      - awtomatlaşdyrylan ölçeg we gözegçilik ulgamlary (KIP).`,
-      image: "/imgs/service-5.webp",
-      url: "/services/5"
-    },
-    {
-      id: 6,
-      name: "Wideo gözegçilik, duýduryş we ýangyn howpsuzlyk ulgamlaryny gurnamak we hyzmat etmek",
-      title: "",
-      desc: `«Çaly» kompaniýasy wideo gözegçilik, duýduryş we ýangyn howpsuzlyk ulgamlary boýunça toplumlaýyn çözgütleri hödürleýär. 
-      Bu hyzmatlar islendik göwrümli binalary goramak üçin niýetlenendir – hususy jaýlardan we ofislerden başlap, iri senagat kärhanalaryna 
-      hem-de nebit-gaz desgalaryna çenli.
-      Hödürlenýän hyzmatlar:
-      - wideo gözegçilik ulgamlaryny gurnamak;
-      - wideo gözegçilik ulgamlaryna hyzmat etmek;
-      - duýduryş ulgamlaryny gurnamak;
-      - duýduryş ulgamlaryna hyzmat etmek;
-      - ýangyn howpsuzlyk ulgamlaryny gurnamak;
-      - ýangyn howpsuzlyk ulgamlaryna hyzmat etmek.`,
-      image: "/imgs/service-6.webp",
-      url: "/services/6"
-    },
-    {
-      id: 7,
-      name: "Kondisioner ulgamlaryny gurnamak we hyzmat etmek",
-      title: "",
-      desc: `«Çaly» kompaniýasy şu hyzmatlary hödürleýär:
-      - çillerleri gurnamak;
-      - çillerlere hyzmat etmek;
-      - WRV ulgamlaryny gurnamak;
-      - WRV ulgamlaryna hyzmat etmek;
-      - howa çalşygy ulgamlaryny gurnamak;
-      - howa çalşygy ulgamlaryna hyzmat etmek.`,
-      image: "/imgs/service-7.webp",
-      url: "/services/7"
-    },
-    {
-      id: 8,
-      name: "Izolýasiýa materiallaryny öndürmek we gurnamak hyzmatlary",
-      title: "",
-      desc: `«Çaly» kompaniýasy dürli görnüşli rulon görnüşli suw izolýasiýa materialy bolan izogamy hem-de bitum mastikasyny öndürýär.
-      Şeýle hem, kompaniýa şu hyzmatlary hödürleýär:
-      - suw izolýasiýasy;
-      - ýylylyk izolýasiýasy;
-      - ses izolýasiýasy.`,
-      image: "/imgs/service-8.webp",
-      url: "/services/8"
-    }
   ],
   ru: [
     {
       id: 1,
-      name: "Нефтепереработка и Химическая промышленность",
-      title:
-        "Компания «Çaly» предоставляет комплексные решения в сфере нефтегазового строительства...",
+      name: "Сервисное обслуживание нефтеперерабатывающих и химических предприятий",
+      title: "Компания «Çaly» предлагает услуги по:",
       desc: "Мы применяем современные технологии и материалы...",
+      services: [
+        { id: 1, name: "Очистка резервуаров", img: "/imgs/service-1-1.webp" },
+        {
+          id: 2,
+          name: "Монтаж и демонтаж резервуаров",
+          img: "/imgs/service-1-2.webp",
+        },
+        {
+          id: 3,
+          name: "Обеспечению пожарной безопасности на трубопроводах",
+          img: "/imgs/service-1-3.webp",
+        },
+        { id: 4, name: "Ремонт сепараторов", img: "/imgs/service-1-4.webp" },
+        { id: 5, name: "Изоляция резервуаров", img: "/imgs/service-1-5.webp" },
+        {
+          id: 6,
+          name: "Ремонт теплообменников",
+          img: "/imgs/service-1-6.webp",
+        },
+        {
+          id: 7,
+          name: "Установка газопроводных труб",
+          img: "/imgs/service-1-7.webp",
+        },
+        { id: 8, name: "КИПавтоматика", img: "/imgs/service-1-8.webp" },
+      ],
       image: "/imgs/service-1.webp",
       url: "/services/1",
     },
     {
       id: 2,
-      name: "Видеонаблюдение и Пожарная система",
+      name: "Установка и обслуживание систем видеонаблюдения, сигнализации и пожарной безопасности",
       title:
-        "Компания «Çaly» предоставляет комплексные решения в сфере нефтегазового строительства...",
+        "Компания «Çaly» предлагает комплексные решения в области видеонаблюдения, сигнализации и пожарной безопасности, обеспечивая защиту объектов любого масштаба – от частных домов и офисов, до крупных промышленных предприятий и нефтегазовых объектов. Услуги включают",
       desc: "Мы разрабатываем, устанавливаем и обслуживаем системы...",
+      services: [
+        {
+          id: 1,
+          name: "Монтаж систем видеонаблюдения",
+          img: "/imgs/service-2-1.webp",
+        },
+        {
+          id: 2,
+          name: "Сервисное обслуживание систем видеонаблюдения",
+          img: "/imgs/service-2-2.webp",
+        },
+        {
+          id: 3,
+          name: "Монтаж систем сигнализации",
+          img: "/imgs/service-2-3.webp",
+        },
+        {
+          id: 4,
+          name: "Сервисное обслуживание систем сигнализации",
+          img: "/imgs/service-2-4.webp",
+        },
+        {
+          id: 5,
+          name: "Монтаж систем пожарной безопасности",
+          img: "/imgs/service-2-5.webp",
+        },
+        {
+          id: 6,
+          name: "Сервисное обслуживание систем пожарной безопасности",
+          img: "/imgs/service-2-6.webp",
+        },
+      ],
       image: "/imgs/service-2.webp",
       url: "/services/2",
     },
     {
       id: 3,
-      name: "Чиллеры с воздушным охлаждением конденсатора",
-      title: "«Çaly» предлагает чиллеры с воздушным охлаждением...",
+      name: "Установка и сервисное обслуживание систем кондиционирования",
+      title: "Компания «Çaly» предлагает:",
       desc: "Мы выполняем полный цикл работ — от подбора оборудования до его установки...",
+      services: [
+        { id: 1, name: "Установку чиллеров", img: "/imgs/service-3-1.webp" },
+        {
+          id: 2,
+          name: "Сервисное обслуживание чиллеров",
+          img: "/imgs/service-3-2.webp",
+        },
+        { id: 3, name: "Установку WRV систем", img: "/imgs/service-3-3.webp" },
+        {
+          id: 4,
+          name: "Обслуживание WRV систем",
+          img: "/imgs/service-3-4.webp",
+        },
+        {
+          id: 5,
+          name: "Установку вентиляционных систем",
+          img: "/imgs/service-3-5.webp",
+        },
+        {
+          id: 6,
+          name: "Услуги по обслуживанию вентиляционных систем",
+          img: "/imgs/service-3-6.webp",
+        },
+      ],
       image: "/imgs/service-3.webp",
       url: "/services/3",
     },
     {
       id: 4,
-      name: "Изогам гидроизоляционный рулонный материал",
+      name: "Производство и услуги по установке и эксплуатации изоляционных материалов",
       title:
-        "Компания «Çaly» профессионально занимается производством и поставкой Изогам мастики...",
+        "Компания «Çaly» выпускает изогам – рулонный гидроизоляционный материал различных модификаций, а также битумную мастику. Компания предоставляет услуги:",
       desc: "",
+      services: [
+        { id: 1, name: "Гидроизоляция", img: "/imgs/service-4-1.webp" },
+        { id: 2, name: "Теплоизоляция", img: "/imgs/service-4-2.webp" },
+        { id: 3, name: "Шумоизоляция", img: "/imgs/service-4-3.webp" },
+      ],
       image: "/imgs/service-4.webp",
       url: "/services/4",
-    },
-    {
-      id: 5,
-      name: "Сервисное обслуживание нефтеперерабатывающих и химических предприятий",
-      title: "",
-      desc: `Компания «Çaly» предлагает услуги по:
-      - очистке резервуаров (до 10 тыс. куб. метров);
-      - ремонту сепараторов;
-      - ремонту теплообменников;
-      - монтажу и демонтажу резервуаров;
-      - изоляции резервуаров;
-      - установке газопроводных труб;
-      - обеспечению пожарной безопасности на трубопроводах;
-      - водоснабжению;
-      - КИПавтоматике.`,
-      image: "/imgs/service-5.webp",
-      url: "/services/5",
-    },
-    {
-      id: 6,
-      name: "Установка и обслуживание систем видеонаблюдения, сигнализации и пожарной безопасности",
-      title: "",
-      desc: `Компания «Çaly» предлагает комплексные решения в области
-      видеонаблюдения, сигнализации и пожарной безопасности, обеспечивая
-      защиту объектов любого масштаба – от частных домов и офисов, до
-      крупных промышленных предприятий и нефтегазовых объектов.
-      Услуги включают:
-      - монтаж систем видеонаблюдения;
-      - сервисное обслуживание систем видеонаблюдения;
-      - монтаж систем сигнализации;
-      - сервисное обслуживание систем сигнализации;
-      - монтаж систем пожарной безопасности;
-      - сервисное обслуживание систем пожарной безопасности.`,
-      image: "/imgs/service-6.webp",
-      url: "/services/6",
-    },
-    {
-      id: 7,
-      name: "Установка и сервисное обслуживание систем кондиционирования",
-      title: "",
-      desc: `Компания «Çaly» предлагает:
-      - установку чиллеров;
-      - сервисное обслуживание чиллеров;
-      - установку WRV систем;
-      - обслуживание WRV систем;
-      - установку вентиляционных систем;
-      - услуги по обслуживанию вентиляционных систем.`,
-      image: "/imgs/service-7.webp",
-      url: "/services/7",
-    },
-    {
-      id: 8,
-      name: "Производство и услуги по установке и эксплуатации изоляционных материалов",
-      title: "",
-      desc: `Компания «Çaly» выпускает изогам – рулонный гидроизоляционный
-      материал различных модификаций, а также битумную мастику.
-      Компания предоставляет услуги:
-      - гидроизоляции;
-      - теплоизоляции;
-      - шумоизоляции.`,
-      image: "/imgs/service-8.webp",
-      url: "/services/8",
     },
   ],
   en: [
     {
       id: 1,
-      name: "Oil Refining and Chemical Industry",
-      title:
-        "The «Çaly» company provides comprehensive solutions in the field of oil and gas construction...",
+      name: "Maintenance of oil refining and chemical plants",
+      title: "Çaly company offers the following services:",
       desc: "We use modern technologies and materials...",
+      services: [
+        { id: 1, name: "Tank cleaning", img: "/imgs/service-1-1.webp" },
+        {
+          id: 2,
+          name: "Tank installation and dismantling",
+          img: "/imgs/service-1-2.webp",
+        },
+        {
+          id: 3,
+          name: "Ensuring fire safety in pipelines",
+          img: "/imgs/service-1-3.webp",
+        },
+        { id: 4, name: "Separator maintenance", img: "/imgs/service-1-4.webp" },
+        { id: 5, name: "Tank insulation", img: "/imgs/service-1-5.webp" },
+        {
+          id: 6,
+          name: "Heat exchanger maintenance",
+          img: "/imgs/service-1-6.webp",
+        },
+        {
+          id: 7,
+          name: "Gas pipeline installation",
+          img: "/imgs/service-1-7.webp",
+        },
+        {
+          id: 8,
+          name: "Autonomous systems and measuring instruments",
+          img: "/imgs/service-1-8.webp",
+        },
+      ],
       image: "/imgs/service-1.webp",
       url: "/services/1",
     },
     {
       id: 2,
-      name: "Video Surveillance and Fire System",
+      name: "Installation and maintenance of video surveillance, alarm, and fire safety systems",
       title:
-        "The «Çaly» company provides comprehensive solutions in the field of oil and gas construction...",
-      desc: "We develop, install, and maintain systems...",
+        "Çaly company offers solutions for video surveillance, alarm, and fire safety systems.",
+      desc: "We design, install, and maintain systems...",
+      services: [
+        {
+          id: 1,
+          name: "Installation of video surveillance systems",
+          img: "/imgs/service-2-1.webp",
+        },
+        {
+          id: 2,
+          name: "Maintenance of video surveillance systems",
+          img: "/imgs/service-2-2.webp",
+        },
+        {
+          id: 3,
+          name: "Installation of alarm systems",
+          img: "/imgs/service-2-3.webp",
+        },
+        {
+          id: 4,
+          name: "Maintenance of alarm systems",
+          img: "/imgs/service-2-4.webp",
+        },
+        {
+          id: 5,
+          name: "Installation of fire safety systems",
+          img: "/imgs/service-2-5.webp",
+        },
+        {
+          id: 6,
+          name: "Maintenance of fire safety systems",
+          img: "/imgs/service-2-6.webp",
+        },
+      ],
       image: "/imgs/service-2.webp",
       url: "/services/2",
     },
     {
       id: 3,
-      name: "Air-Cooled Chillers",
-      title:
-        "«Çaly» offers air-cooled chillers providing reliable and energy-efficient cooling...",
-      desc: "We carry out a full cycle of work — from equipment selection to installation and fine-tuning...",
+      name: "Installation and maintenance of air conditioning systems",
+      title: "Çaly company offers the following services:",
+      desc: "We provide equipment selection, installation, and maintenance services...",
+      services: [
+        {
+          id: 1,
+          name: "Installation of chillers",
+          img: "/imgs/service-3-1.webp",
+        },
+        {
+          id: 2,
+          name: "Maintenance of chillers",
+          img: "/imgs/service-3-2.webp",
+        },
+        {
+          id: 3,
+          name: "Installation of VRV systems",
+          img: "/imgs/service-3-3.webp",
+        },
+        {
+          id: 4,
+          name: "Maintenance of VRV systems",
+          img: "/imgs/service-3-4.webp",
+        },
+        {
+          id: 5,
+          name: "Installation of ventilation systems",
+          img: "/imgs/service-3-5.webp",
+        },
+        {
+          id: 6,
+          name: "Maintenance of ventilation systems",
+          img: "/imgs/service-3-6.webp",
+        },
+      ],
       image: "/imgs/service-3.webp",
       url: "/services/3",
     },
     {
       id: 4,
-      name: "Izogam Waterproofing Roll Material",
+      name: "Production and installation of insulation materials",
       title:
-        "The «Çaly» company is engaged in the production and supply of Izogam mastic...",
+        "Çaly company produces various insulation materials and offers related services:",
       desc: "",
+      services: [
+        { id: 1, name: "Waterproofing", img: "/imgs/service-4-1.webp" },
+        { id: 2, name: "Thermal insulation", img: "/imgs/service-4-2.webp" },
+        { id: 3, name: "Sound insulation", img: "/imgs/service-4-3.webp" },
+      ],
       image: "/imgs/service-4.webp",
       url: "/services/4",
-    },
-    {
-      id: 5,
-      name: "Maintenance Services for Oil Refining and Chemical Plants",
-      title: "",
-      desc: `The company «Çaly» offers the following services:
-      - tank cleaning (up to 10,000 cubic meters);
-      - separator repair;
-      - heat exchanger repair;
-      - tank installation and dismantling;
-      - tank insulation;
-      - installation of gas pipelines;
-      - ensuring fire safety on pipelines;
-      - water supply;
-      - instrumentation and automation.`,
-      image: "/imgs/service-5.webp",
-      url: "/services/5",
-    },
-    {
-      id: 6,
-      name: "Installation and Maintenance of Video Surveillance, Alarm, and Fire Safety Systems",
-      title: "",
-      desc: `The company «Çaly» provides comprehensive solutions in the field of
-      video surveillance, alarm systems, and fire safety, ensuring the
-      protection of facilities of any scale – from private homes and offices to
-      large industrial enterprises and oil and gas facilities.
-      Services include:
-      - installation of video surveillance systems;
-      - maintenance of video surveillance systems;
-      - installation of alarm systems;
-      - maintenance of alarm systems;
-      - installation of fire safety systems;
-      - maintenance of fire safety systems.`,
-      image: "/imgs/service-6.webp",
-      url: "/services/6",
-    },
-    {
-      id: 7,
-      name: "Installation and Maintenance of Air Conditioning Systems",
-      title: "",
-      desc: `The company «Çaly» offers:
-      - installation of chillers;
-      - maintenance of chillers;
-      - installation of WRV systems;
-      - maintenance of WRV systems;
-      - installation of ventilation systems;
-      - maintenance services for ventilation systems.`,
-      image: "/imgs/service-7.webp",
-      url: "/services/7",
-    },
-    {
-      id: 8,
-      name: "Production and Services for Installation and Operation of Insulation Materials",
-      title: "",
-      desc: `The company «Çaly» produces Isogam – a rolled waterproofing
-      material of various modifications, as well as bituminous mastic.
-      The company provides the following services:
-      - waterproofing;
-      - thermal insulation;
-      - sound insulation.`,
-      image: "/imgs/service-8.webp",
-      url: "/services/8",
     },
   ],
 };

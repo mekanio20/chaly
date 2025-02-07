@@ -5,10 +5,6 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  build: {
-    minify: false,
-    target: 'esnext'
-  },
   base: "./",
   plugins: [
     vue(),

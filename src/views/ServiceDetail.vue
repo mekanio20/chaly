@@ -29,13 +29,16 @@
                 <div class="news-contant">
                     <div class="text-wrap">
                         <p>
-                            <img decoding="async" class="lazyload alignright wp-image-1028" :src="service?.image" width="450" height="300"
-                                data-sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" />
                             {{ service?.title }}
                         </p>
-                        <p>
-                            {{ service?.desc }}
-                        </p>
+                        <div class="w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 py-10">
+                            <div v-for="item in service?.services" class="flex flex-col">
+                                <h1>{{ item.name }}</h1>
+                                <a :href="item.img" class="w-[300px] h-[200px]">
+                                    <img class="lazyload w-full h-full object-cover rounded-lg" :src="item.img">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <Company />
@@ -95,7 +98,6 @@ export default {
     methods: {
         getServiceDetail() {
             this.service = serviceData[this.$i18n.locale].find(item => item.id == this.$route.params.id)
-            console.log(this.service);
         }
     },
     watch: {
