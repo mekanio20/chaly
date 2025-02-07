@@ -13,8 +13,7 @@
                 </span>
                 &gt;
                 <span itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-                    <span itemtype="http://schema.org/Thing" itemprop="item" itemid="%slink%"
-                        :title="$t('title74')">
+                    <span itemtype="http://schema.org/Thing" itemprop="item">
                         <span itemprop="name" property="name">{{ $t('title74') }}</span></span>
                     <meta itemprop="position" property="position" content="2" />
                 </span>
