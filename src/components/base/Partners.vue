@@ -1,5 +1,5 @@
 <template>
-    <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="100"
+    <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="100" :autoplay="{ delay: 1000, disableOnInteraction: false, duration: 2000, }"
         class="w-full select-none flex items-center">
         <swiper-slide v-for="item in partners" :key="item.id">
             <div class="h-[70px]">
@@ -12,7 +12,7 @@
 <script>
 import partners from '@/data/partners.js'
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -26,7 +26,7 @@ export default {
     setup() {
         return {
             partners,
-            modules: [Navigation],
+            modules: [Navigation, Autoplay],
             slidesPerView: 4,
             breakpoints: {
                 200: { slidesPerView: 1 },

@@ -5991,9 +5991,9 @@ header .nav-menu .close {
   line-height: 20px;
 }
 .about-home.add_bg {
-  background: url(/imgs/bg1.jpg) center center no-repeat;
+  /* background: url(/imgs/bg1.jpg) center center no-repeat; */
   background-size: cover;
-  padding-bottom: 3.33333em;
+  /* padding-bottom: 3.33333em; */
 }
 .about-home.add_bg .global-title {
   display: block;

@@ -15,6 +15,7 @@ export default {
         }).addTo(map)
 
         L.icon({
+            iconName: "Chaly",
             iconUrl: "/imgs/marker-icon-2x.png",
             iconAnchor: [16, 32],
         });

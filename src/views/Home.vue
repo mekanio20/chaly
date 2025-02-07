@@ -8,13 +8,13 @@
                 <div class="container">
                     <div class="text-scroll">
                         <div class="text-m_gray-100">
-                            <p class="pt-8 text-black font-medium" style="text-align: center">
+                            <p class="pt-8  font-medium" style="text-align: center">
                                 <span style="font-size: 18pt">
                                     {{ $t('title64') }}
                                 </span>
                             </p>
                             <p style="margin-top: -30px;">
-                                <span class="text-black font-medium"></span><br /> <br>
+                                <span class="font-medium"></span><br /> <br>
                                     {{ $t('title65') }}
                                 <br /> <br>
                                     {{ $t('title68') }}
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content !mb-0 py-10">
                 <div class="container">
                     <strong class="global-title font-bold text-m_blue-100">
                         {{ $t('title70') }}
