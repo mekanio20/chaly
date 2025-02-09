@@ -1,8 +1,8 @@
 <template>
-    <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="100" :autoplay="{ delay: 1000, disableOnInteraction: false, duration: 2000, }"
+    <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="50" :autoplay="{ delay: 1000, disableOnInteraction: false, duration: 2000, }"
         class="w-full select-none flex items-center">
         <swiper-slide v-for="item in partners" :key="item.id">
-            <div class="h-[70px]">
+            <div class="h-[200px]">
                 <img class="w-full h-full object-contain lazyload" :src="item.img" :data-src="item.img" />
             </div>
         </swiper-slide>
