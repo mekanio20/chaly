@@ -3,12 +3,12 @@
         <Header>
             <Navbar />
         </Header>
-        <div class="main">
+        <div class="main bg-m_blue-100 lg:!mt-[115px] max-w-[900px]:!mt-[100px] mt-0 pt-10">
             <div class="about-home add_bg">
                 <div class="container">
                     <div class="text-scroll">
-                        <div class="text-m_gray-100">
-                            <p class="pt-8  font-medium" style="text-align: center">
+                        <div class="text-white">
+                            <p class="pt-8 font-medium" style="text-align: center">
                                 <span style="font-size: 18pt">
                                     {{ $t('title64') }}
                                 </span>
@@ -19,13 +19,12 @@
                                 <br /> <br>
                                     {{ $t('title68') }}
                                 <br />
-                                    <!-- {{ $t('title69') }} -->
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="projects-content !mb-0 py-10">
+            <div class="projects-content !mb-0 pb-10">
                 <div class="container">
                     <strong class="global-title font-bold text-m_blue-100">
                         {{ $t('title70') }}

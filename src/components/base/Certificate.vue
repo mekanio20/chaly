@@ -6,7 +6,7 @@
         <swiper :modules="modules" :slidesPerView="slidesPerView" :breakpoints="breakpoints" spaceBetween="50" speed="1000"
             :autoplay="{ delay: 1000, disableOnInteraction: false, duration: 2000, }"
             class="w-full select-none flex items-center">
-            <swiper-slide v-for="item in 6" :key="item">
+            <swiper-slide v-for="item in 14" :key="item">
                 <a class="w-[300px] h-[300px]" :href="`/imgs/cert-${item}.jpg`">
                     <img class="lazyload w-full h-full object-contain" :src="`/imgs/cert-${item}.jpg`" />
                 </a>

@@ -55,4 +55,16 @@ export default [
         id: 14,
         img: "/imgs/partner-14.png",
     },
+    {
+        id: 15,
+        img: "/imgs/partner-15.png",
+    },
+    {
+        id: 16,
+        img: "/imgs/partner-16.png",
+    },
+    {
+        id: 17,
+        img: "/imgs/partner-17.png",
+    }
 ]
