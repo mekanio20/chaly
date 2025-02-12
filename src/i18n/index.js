@@ -85,9 +85,9 @@ const messages = {
     title63: "Meniň bilen habarlaşyň",
     // HOME
     title64: "«Çaly-Serwis» kompaniýasy",
-    title65: "«Çaly» kompaniýasy ýokary hilli gurluşyk materiallaryny üpjün etmek maksady bilen esaslandyryldy. Bu materiallar islendik gurluşyk taslamasynyň ygtybarlylygyny we uzak möhletleýinligini kepillendirýär. Biz köp ýyllyk tejribämiz bilen gurluşyk pudagynda iň ýokary standartlara laýyk gelýän önümleri hödürleýän ynamdar hyzmatdaş hökmünde tanalýarys.",
+    title65: "“Çaly” kompaniýasy islendik gurluşyk desgalarynyň çydamlylygyny we ygtybarlylygyny üpjün edýän ýokary hilli gurluşyk materiallaryny öndürmek maksady bilen 2007-nji ýylda esaslandyryldy.",
     title67: "«Çaly» kompaniýasy 2007-nji ýylda islendik gurluşyk desgasynyň uzak möhletleýinligini we ygtybarlylygyny üpjün edýän ýokary hilli gurluşyk materiallaryny öndürmek maksady bilen esaslandyryldy.",
-    title68: "Köp ýyllyk tejribäniň dowamynda kompaniýa iş ugurlaryny ep-esli giňeltdi we iň ýokary hil standartlaryna laýyk gelýän önümleri hem-de hyzmatlary hödürleýär.",
+    title68: "Kompaniýa özüniň iş ýyllarynyň dowamynda iň ýokary hil standartlaryna laýyk gelýän önümleri we hyzmatlary hödürlemek bilen, ýerine ýetirýän iş ugurlaryny ep-esli artdyrdy.",
     title70: "Işlerimiz",
     title71: "Täzelikler",
     title72: "Has giňişleýin",
@@ -339,9 +339,9 @@ const messages = {
     title63: "Call me back",
     // HOME
     title64: "Chaly-Service Company",
-    title65: "The Çaly company was founded with the goal of providing high-quality construction materials that ensure the reliability and durability of any construction project. Over the years, we have established ourselves as a reliable partner, offering products that meet the highest standards in the construction industry.",
+    title65: "The «Çaly» company was founded in 2007 with the goal of producing high-quality construction materials that ensure the durability and reliability of any building structures.",
     title67: "Çaly company was founded in 2007 with the aim of producing high-quality construction materials that ensure the durability and reliability of any construction facility.",
-    title68: "Over the years, the company has significantly expanded its areas of activity, offering products and services that meet the highest quality standards.",
+    title68: "Over the years, the company has significantly expanded its scope of activities, offering products and services that meet the highest quality standards.",
     title70: "Our Works",
     title71: "News",
     title72: "More details",

@@ -1,22 +1,22 @@
 <template>
   <header class="header" id="header" style="background-image: url('/imgs/bg-header.jpg');">
     <div class="header-top">
-      <div class="container">
+      <div class="sm:container">
         <div class="textwidget">
           <a class="mail cursor-pointer" @click="updateLang('tm')">
-            <img style="width: 20px; height: 13px"
+            <img style="width: 16px; height: 13px"
               src="/imgs/tm.webp" />
           </a>
           <a class="mail cursor-pointer" @click="updateLang('ru')">
-            <img style="width: 20px; height: 13px"
+            <img style="width: 16px; height: 13px"
               src="/imgs/ru.webp" />
           </a>
           <a class="mail cursor-pointer" @click="updateLang('en')">
-            <img style="width: 20px; height: 13px;"
+            <img style="width: 16px; height: 13px;"
               src="/imgs/en.webp" />
           </a>
-          <a class="mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
-          <a class="tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
+          <a class="sm:text-sm text-xs mail" href="mailto:chaly.marketing@gmail.com">chaly.marketing@gmail.com</a>
+          <a class="sm:text-sm text-xs tel" href="tel:+99365609009">+993 (65) 60-90-09</a>
           <a class="mt-[4px]">
             <Search />
           </a>

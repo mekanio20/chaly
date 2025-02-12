@@ -8,65 +8,72 @@ export default {
   tm: [
     {
       id: 1,
-      name: "Nebiti gaýtadan işleýän we himiýa kärhanalaryna hyzmat",
-      title: "«Çaly» kompaniýasy şu hyzmatlary hödürleýär:",
+      name: "Nebiti gaýtadan işleýän zawodlar we himiýa kärhanalary üçin serwis hyzmatlary",
+      title: "“Çaly” kompaniýasy aşakdaky hyzmatlary hödürleýär:",
       desc: "Biz häzirki zaman tehnologiýalaryny we materiallary ulanýarys...",
       services: [
         {
           id: 1,
-          name: "Rezervuarlary arassalamak",
+          name: "Rezerwuarlary arassalamak",
           content:
             "Rezervuarlaryň içinde toplanan palçyk, çörek we beýleki galyndylary arassalamak hyzmaty hödürlenýär. Bu proses, enjamlaryň ömrüni uzaltmaga we howpsuz işlemegini üpjün etmäge kömek edýär. Mundan başga-da, arassalanan rezervuarlaryň saklaýan maddalary hapalanmaz we standartlara laýyk bolar.",
           img: "/imgs/service-1-1.webp",
         },
         {
           id: 2,
-          name: "Rezervuarlary gurnamak we sökmek",
+          name: "Rezerwuarlary gurnamak we sökmek",
           content:
             "Biz dürli göwrümli rezervuarlary gurnamak we gerek bolan halatynda sökmek hyzmatyny hödürleýäris. Ýokary hilli materiallar we öňdebaryjy usullar bilen işleýäris. Gurluş we söküş işleri howpsuzlyk kadalaryna doly laýyklykda amala aşyrylýar.",
           img: "/imgs/service-1-2.webp",
         },
         {
           id: 3,
-          name: "Turba geçirijilerde ýangyn howpsuzlygyny üpjün etmek",
+          name: "Turbageçirijilerde ýangyn howpsuzlygyny üpjün etmek",
           content:
             "Turba geçirijilerde ýangyn howpunyň öňüni almak üçin ýörite howpsuzlyk çäreleri görülýär. Bu hyzmat çäklerinde izolýasiýa, ýangyna garşy örtükler we howpsuzlyk enjamlary oturdylýar. Bu çäreler, çynlakaý betbagtçylyklaryň öňüni almak üçin möhümdir.",
           img: "/imgs/service-1-3.webp",
         },
         {
           id: 4,
-          name: "Separatorlary bejermek",
+          name: "Separatorlary abatlamak",
           content:
             "Separatorlar dürli maddalary aýyrmak we süzgüçden geçirmek üçin ulanylýar. Wagtyň geçmegi bilen olaryň işleýşi peselip biler, şonuň üçin tehniki hyzmat we abatlaýyş işleri geçirilmelidir. Biz separatorlaryň netijeliligini dikeltmek üçin ýokary hilli bejergi we abatlaýyş hyzmatlaryny hödürleýäris.",
           img: "/imgs/service-1-4.webp",
         },
         {
           id: 5,
-          name: "Rezervuarlary izolýasiýa etmek",
+          name: "Rezerwuarlary izolýasiýa etmek",
           content:
             "Rezervuarlary izolýasiýa etmek energiýa tygşytlamak we daşky gurşawyň täsirinden goramak üçin möhümdir. Biz ýokary hilli izolýasiýa materiallaryny ulanýarys we iň täze tehnologiýalary ulanmak bilen hyzmat hödürleýäris. Bu amal saklanýan maddalaryň howpsuzlygyny we hilini saklamaga kömek edýär.",
           img: "/imgs/service-1-5.webp",
         },
         {
           id: 6,
-          name: "Ýylalma çalşyjy abzallary bejermek",
+          name: "Suw üpjünçilik",
           content:
-            "Ýylalma çalşyjy abzallar ýylylygy dolandyryp, energiýa tygşytlamaga kömek edýär. Uzak wagtlap ulanylanda, olaryň netijeliligi peselip biler we abatlaýyş zerurlygy ýüze çykyp biler. Biz abzallaryň ygtybarly işlemegini üpjün etmek üçin ýokary hilli bejergi we abatlaýyş hyzmatlaryny hödürleýäris.",
+            "Suw üpjünçilik ulgamlary üçin ygtybarly we täsirli çözgütleri hödürleýäris. Arassa agyz suwuny üpjün etmek we suw howdanlaryny dolandyrmak üçin häzirki zaman tehnologiýalary ulanýarys.",
           img: "/imgs/service-1-6.webp",
         },
         {
           id: 7,
-          name: "Gaz geçiriji turbalary gurnamak",
+          name: "Ýylylyk çalşyjylary abatlamak",
           content:
-            "Gaz geçiriji turbalary gurnamak işleri howpsuzlyk kadalaryna laýyklykda ýerine ýetirilýär. Biz ýokary hilli materiallary we häzirki zaman tehnologiýalary ulanýarys. Dogry gurnalan turbageçirijiler uzak möhletli we howpsuz işlemegi üpjün edýär.",
+            "Ýylylyk çalşyjylarynyň täzelenmegi we netijeliligini saklamak üçin professional abatlaýyş we hyzmat hyzmatlaryny hödürleýäris. Enjamlaryňyzyň uzak möhletleýin işlemegini üpjün etmek üçin iň täze tehnologiýalary ulanýarys.",
           img: "/imgs/service-1-7.webp",
         },
         {
           id: 8,
-          name: "Awtonom ulgamlar we ölçeg enjamlary",
+          name: "Gaz turbalaryny oturtmak",
           content:
-            "Awtonom ulgamlar we ölçeg enjamlary önümçilikde we senagatda takyklyk bilen ölçeg işlerini ýerine ýetirmek üçin ulanylýar. Biz bu ulgamlary gurnamak, sazlamak we abatlamak boýunça doly hyzmat hödürleýäris. Netijede, önümçilik has durnukly we ygtybarly bolup biler.",
+            "Biz gaz turbalaryny ygtybarly we howpsuz oturtmak boýunça ýokary hilli hyzmatlary hödürleýäris. Ulgamyň netijeliligini we howpsuzlygyny üpjün etmek üçin döwrebap tehnologiýalary we halkara standartlaryna laýyk usullary ulanýarys.",
           img: "/imgs/service-1-8.webp",
+        },
+        {
+          id: 9,
+          name: "Gözegçilik - ölçeg abzallary we awtomatlaşdyryş hyzmatlary",
+          content:
+            "Biz awtomatlaşdyrylan ulgamlary dolandyrmak we gözegçilik etmek üçin öňdebaryjy ölçeg hem-de dolandyryş çözümlerini hödürleýäris. Tehnologiýamyz senagat prosesleriniň takyklygyny we netijeliligini üpjün edýär.",
+          img: "/imgs/service-1-9.webp",
         },
       ],
       image: "/imgs/service-1.webp",
@@ -74,9 +81,9 @@ export default {
     },
     {
       id: 2,
-      name: "Wideo gözegçilik, signalizasiýa we ýangyn howpsuzlyk ulgamlaryny gurnamak we hyzmat",
+      name: "Wideo gözegçilik, duýduryş we ýangyn howpsuzlygy ulgamlaryny gurnamak we olara hyzmat etmek",
       title:
-        "«Çaly» kompaniýasy wideo gözegçilik, signalizasiýa we ýangyn howpsuzlygy boýunça çözgütleri hödürleýär.",
+        "“Çaly” kompaniýasy, hususy öýlerden we ofislerden başlap, iri senagat kärhanalaryna we nebit-gaz desgalaryna çenli islendik göwrümli desgalaryň goragyny üpjün etmek boýunça wideo gözegçilik, duýduryş we ýangyn howpsuzlygy ugruna degişli toplumlaýyn çözgütleri hödürleýär.",
       desc: "Biz ulgamlary dizaýn edýäris, gurnap we hyzmat edip berýäris...",
       services: [
         {
@@ -88,35 +95,35 @@ export default {
         },
         {
           id: 2,
-          name: "Wideo gözegçilik ulgamlaryna hyzmat etmek",
+          name: "Wideo gözegçilik ulgamlaryna serwis hyzmatlaryny etmek",
           img: "/imgs/service-2-2.webp",
           content:
             "Wideo gözegçilik ulgamlaryňyza hyzmat edip, sistemleriňizi yzygiderli we kesintisiz ýagdaýda saklaýarys. Ulgamlaryňyzy iň gowy ýagdaýda saklamak üçin yzygiderli hyzmatlarymyz bar. Herhili bir näsazlyk ýüze çykanda çalt reaksiýa bilen howpsuzlygyňyzy goraýarys.",
         },
         {
           id: 3,
-          name: "Signalizasiýa ulgamlaryny gurnamak",
+          name: "Duýduryş ulgamlaryny gurnamak",
           img: "/imgs/service-2-3.webp",
           content:
             "Alarm we signalyzasiýa ulgamlaryny gurup, her dürli howpy erkinlik bilen anyklaýarys. Işletmeleriňize görä ýöriteleşdirilen signalizasiýa ulgamlary bilen howpsuzlygyňyzy üpjün edýäris. Ulgamlarymyz, içki we daşky ýerlerde ýokary netijelilik bilen işleýär.",
         },
         {
           id: 4,
-          name: "Signalizasiýa ulgamlaryna hyzmat etmek",
+          name: "Duýduryş ulgamlaryny serwis hyzmatlaryny etmek",
           img: "/imgs/service-2-4.webp",
           content:
             "Signalizasiýa ulgamlarynyň hyzmaty tiz reaksiýa üçin möhümdir. Yzygiderli hyzmatlar we täzelenmeler bilen ulgamyzyň hemişe berk we dogry işleýändigine göz ýetýäris. Mundan başga-da, ulgamdaky mümkin bolan meseläni öňünden anyklap, howpsuzlygyňyza zyýan ýetirmeýäris.",
         },
         {
           id: 5,
-          name: "Ýangyn howpsuzlyk ulgamlaryny gurnamak",
+          name: "Ýangyn howpsuzlygy ulgamlaryny gurnamak",
           img: "/imgs/service-2-5.webp",
           content:
             "Ýangyn howpsuzlyk ulgamlaryny gurup, ýangyn ýagdaýynda çalt reaksiýa bermek üçin mümkinçilik döreýäris. Awtoýangyn kesgitleme we söndürme ulgamlary bilen iş ýerleriňizdäki ähli ýerleri howpsuz saklaýarys. Şeýle-de, ulgamlaryň gurnalmagy ýerinde doly we jikme-jik amala aşyrylýar.",
         },
         {
           id: 6,
-          name: "Ýangyn howpsuzlyk ulgamlaryna hyzmat etmek",
+          name: "Ýangyn howpsuzlygy ulgamlaryna serwis hyzmatlaryny etmek",
           img: "/imgs/service-2-6.webp",
           content:
             "Ýangyn howpsuzlyk ulgamlarynyň yzygiderli hyzmaty ulgamyň hemişe işjeň we ygtybarly bolmagyny üpjün edýär. Toparymyz, ýangyn alary we söndürme ulgamlaryny hemişe barlap, zerur ýagdaýda tizden tiz hyzmat edýär. Mundan başga-da, ulgamyňyzy täze we işjeň ýagdaýda saklamak üçin ýyllyk gözden geçirme hyzmatlaryny teklip edýäris.",
@@ -127,8 +134,8 @@ export default {
     },
     {
       id: 3,
-      name: "Kondisioner ulgamlaryny gurnamak we hyzmat etmek",
-      title: "«Çaly» kompaniýasy şu hyzmatlary hödürleýär:",
+      name: "Kondisioner ulgamlaryny gurnamak we olara hyzmat etmek",
+      title: "“Çaly” kompaniýasy hödürleýär:",
       desc: "Biz enjamlary saýlap almadan başlap, gurnama we hyzmat işlerini ýerine ýetirýäris...",
       services: [
         {
@@ -140,7 +147,7 @@ export default {
         },
         {
           id: 2,
-          name: "Çillerlere hyzmat etmek",
+          name: "Çillerlere serwis hyzmatlaryny etmek",
           img: "/imgs/service-3-2.webp",
           content:
             "Çillerleriňizi hyzmat etmek, olaryň düzgünli işlemegini we uzyn ömri üçin möhümdir. Biz çillerleriňizi yzygiderli barlap, zerur hyzmatlary hödürleýäris. Şeýle hem, harby we senagat çillerleri üçin ýörite hyzmat teklip edýäris.",
@@ -154,21 +161,21 @@ export default {
         },
         {
           id: 4,
-          name: "WRV ulgamlaryna hyzmat etmek",
+          name: "WRV ulgamlaryna serwis hyzmatlaryny etmek",
           img: "/imgs/service-3-4.webp",
           content:
             "WRV ulgamlarynyň yzygiderli hyzmaty, ulgamyň ömrüni uzaltmak we howpsuzlygyny üpjün etmek üçin möhümdir. Biz WRV ulgamlaryny doly we takyk barlap, zerur hyzmatlary berýäris. Ulgamyň her bir bölegi üçin ýörite we tiz hyzmat teklip edýäris.",
         },
         {
           id: 5,
-          name: "Howa çalşygy ulgamlaryny gurnamak",
+          name: "Wentilýasiýa ulgamlaryny gurnamak",
           img: "/imgs/service-3-5.webp",
           content:
             "Howa çalşygy ulgamlaryny gurup, iş ýerlerinde arassa howa we sagdyn körpüleriň üpjün edilmegine kömek edýäris. Biz iş ýerlerinde ähli howa şertleriniň optimal ýagdaýda bolmagyny gazanýarys. Ulgam gurnama işleriniň dowamynda ähli maglumatlary düýpli we tiz üstünlik bilen ýerine ýetirýäris.",
         },
         {
           id: 6,
-          name: "Howa çalşygy ulgamlaryna hyzmat etmek",
+          name: "Wentilýasiýa ulgamlaryna serwis hyzmatlaryny etmek",
           img: "/imgs/service-3-6.webp",
           content:
             "Howa çalşygy ulgamlarynyň hyzmaty, olaryň netijeli işlemegi we sagdyn howa üpjün edilmegi üçin gerekli ýagdaýy saklamaga kömek edýär. Biz, howa çalşygy ulgamlaryny yzygiderli barlap, zerur hyzmatlary ýerine ýetirýäris. Her dürli meseläni tiz we dogry çözýäris, şeýlelik bilen ulgamyň we iş ýerleriniň doly howpsuzlygyny üpjün edýäris.",
@@ -179,9 +186,9 @@ export default {
     },
     {
       id: 4,
-      name: "Izolýasiýa materiallaryny öndürmek we gurnamak",
+      name: "Izolýasiýa materiallaryny gurnamak we ulanmak boýunça önümçilik we hyzmatlar",
       title:
-        "«Çaly» kompaniýasy dürli izolýasiýa materiallaryny öndürýär we hyzmatlary hödürleýär:",
+        "“Çaly” kompaniýasy izogam - dürli modifikasiýaly rulonlaýyn izolýasiýa materialy, şeýle hem bitum mastikasyny öndürýär.",
       desc: "",
       services: [
         {
@@ -193,14 +200,14 @@ export default {
         },
         {
           id: 2,
-          name: "Ýyladyş izolýasiýasy",
+          name: "Ýylylyk izolirleýji rulon",
           img: "/imgs/service-4-2.webp",
           content:
             "Ýyladyş izolýasiýasy hyzmatlarymyz bilen binanyň ýylylyk ukyplylygyny ýokarlandyrýarys. Bu hyzmat, ýangyn howpsuzlygyny we energiýa tygşytlamasyny ýokarlandyrmaga kömek edýär. Şeýle hem, içki temperaturaýy saklamakda möhürleýji rol oýnaýar.",
         },
         {
           id: 3,
-          name: "Ses izolýasiýasy",
+          name: "Ses izolirleýji rulon",
           img: "/imgs/service-4-3.webp",
           content:
             "Ses izolýasiýasy hyzmatlarymyz, ýerine ýetirilen her işde sesiň ýalpyldamasyny we ýakyn aralykdan aradan aýyrmak üçin kesgitleme çözgütleri hödürleýär. Biz iň täze tehnologiýalary we materiallary ulanmak bilen, pes we ýokary seslere garşy ýokary netijelilikde garşylyk görkezýäris.",
@@ -272,6 +279,13 @@ export default {
           content:
             "Автономные системы и измерительное оборудование используются в промышленности для точных измерений. Мы предоставляем полный спектр услуг по установке, настройке и ремонту этих систем. Это помогает сделать производство более стабильным и надежным.",
           img: "/imgs/service-1-8.webp",
+        },
+        {
+          id: 9,
+          name: "КИПавтоматика",
+          content:
+            "Контроль и измерительные приборы для автоматизированных систем. Мы предоставляем решения для точного мониторинга и управления технологическими процессами.",
+          img: "/imgs/service-1-9.webp",
         },
       ],
       image: "/imgs/service-1.webp",
@@ -418,65 +432,72 @@ export default {
   en: [
     {
       id: 1,
-      name: "Maintenance of oil refining and chemical plants",
-      title: "Çaly company offers the following services:",
+      name: "Maintenance Services for Oil Refining and Chemical Enterprises",
+      title: "The «Çaly» company offers the following services:",
       desc: "We use modern technologies and materials...",
       services: [
         {
           id: 1,
-          name: "Cleaning Reservoirs",
+          name: "Tank cleaning",
           content:
             "We offer a service to clean accumulated sludge, debris, and other residues inside reservoirs. This process helps extend the lifespan of equipment and ensures safe operation. Additionally, cleaned reservoirs maintain the purity of stored substances and comply with standards.",
           img: "/imgs/service-1-1.webp",
         },
         {
           id: 2,
-          name: "Installing and Dismantling Reservoirs",
+          name: "Tank assembly and disassembly",
           content:
             "We provide services for installing and dismantling reservoirs of various sizes as needed. We work with high-quality materials and advanced techniques. All installation and dismantling procedures are carried out in full compliance with safety regulations.",
           img: "/imgs/service-1-2.webp",
         },
         {
           id: 3,
-          name: "Ensuring Fire Safety in Pipeline Systems",
+          name: "Ensuring fire safety on pipelines",
           content:
             "Special fire safety measures are taken to prevent fire hazards in pipeline systems. These services include insulation, fire-resistant coatings, and the installation of safety equipment. Such precautions are essential to prevent serious accidents.",
           img: "/imgs/service-1-3.webp",
         },
         {
           id: 4,
-          name: "Repairing Separators",
+          name: "Separator repair",
           content:
             "Separators are used to filter and separate different substances. Over time, their efficiency may decrease, requiring maintenance and repair. We offer high-quality repair services to restore the efficiency of separators.",
           img: "/imgs/service-1-4.webp",
         },
         {
           id: 5,
-          name: "Insulating Reservoirs",
+          name: "Tank insulation",
           content:
             "Insulating reservoirs is essential for energy efficiency and protection from environmental factors. We use high-quality insulation materials and advanced technologies to provide the best service. This process helps maintain the safety and quality of stored substances.",
           img: "/imgs/service-1-5.webp",
         },
         {
           id: 6,
-          name: "Repairing Heat Exchangers",
+          name: "Water supply",
           content:
-            "Heat exchangers help regulate temperature and improve energy efficiency. Over time, their performance may decline, requiring maintenance and repairs. We provide professional repair services to ensure their reliable operation.",
+            "We provide reliable and efficient water supply solutions, ensuring clean and safe drinking water. Our modern technologies help manage water resources effectively for households and industries.",
           img: "/imgs/service-1-6.webp",
         },
         {
           id: 7,
-          name: "Installing Gas Pipelines",
+          name: "Heat exchanger repair",
           content:
-            "Gas pipeline installation is carried out in accordance with safety standards. We use high-quality materials and modern technologies. Properly installed pipelines ensure long-term and safe operation.",
+            "We offer professional maintenance and repair services for heat exchangers to ensure optimal performance and longevity. Our advanced techniques help improve energy efficiency and system reliability.",
           img: "/imgs/service-1-7.webp",
         },
         {
           id: 8,
-          name: "Autonomous Systems and Measuring Equipment",
+          name: "Installation of gas pipes",
           content:
-            "Autonomous systems and measuring equipment are used in industrial applications for precise measurements. We provide full installation, calibration, and maintenance services for these systems. As a result, production becomes more stable and reliable.",
+            "We specialize in the safe and efficient installation of gas pipelines, following international standards. Our expert team ensures secure connections and long-lasting system performance.",
           img: "/imgs/service-1-8.webp",
+        },
+        {
+          id: 9,
+          name: "Instrumentation and automation",
+          content:
+            "We provide advanced measurement and control solutions for automated systems. Our technology ensures precise monitoring and efficient management of industrial processes.",
+          img: "/imgs/service-1-9.webp",
         },
       ],
       image: "/imgs/service-1.webp",
@@ -484,49 +505,49 @@ export default {
     },
     {
       id: 2,
-      name: "Installation and maintenance of video surveillance, alarm, and fire safety systems",
+      name: "Installation and Maintenance of Video Surveillance, Alarm, and Fire Safety Systems",
       title:
-        "Çaly company offers solutions for video surveillance, alarm, and fire safety systems.",
+        "The «Çaly» company offers comprehensive solutions in the field of video surveillance, alarm, and fire safety systems, ensuring the protection of facilities of any scale - from private homes and offices to large industrial enterprises and oil & gas facilities.",
       desc: "We design, install, and maintain systems...",
       services: [
         {
           id: 1,
-          name: "Video Surveillance System Installation",
+          name: "Installation of video surveillance systems",
           img: "/imgs/service-2-1.webp",
           content:
             "We install video surveillance systems to provide top-level security. With the latest technologies and our expert teams, we ensure monitoring through high-resolution cameras at every location. Additionally, the installation process is executed quickly and efficiently.",
         },
         {
           id: 2,
-          name: "Video Surveillance System Maintenance",
+          name: "Service maintenance of video surveillance systems",
           img: "/imgs/service-2-2.webp",
           content:
             "We maintain your video surveillance systems to keep them running smoothly and without interruption. We offer regular maintenance services to keep your systems in top condition. In case of any malfunction, we react promptly to ensure your security.",
         },
         {
           id: 3,
-          name: "Alarm System Installation",
+          name: "Installation of alarm systems",
           img: "/imgs/service-2-3.webp",
           content:
             "We install alarm and signaling systems to detect any threat with ease. We provide specialized alarm systems tailored to your business for ensuring your safety. Our systems operate with high efficiency in both indoor and outdoor environments.",
         },
         {
           id: 4,
-          name: "Alarm System Maintenance",
+          name: "Service maintenance of alarm systems",
           img: "/imgs/service-2-4.webp",
           content:
             "Maintaining alarm systems is crucial for fast response. We provide regular services and updates to ensure your system works reliably and accurately. Additionally, we proactively identify potential issues to prevent any threats to your security.",
         },
         {
           id: 5,
-          name: "Fire Safety System Installation",
+          name: "Installation of fire safety systems",
           img: "/imgs/service-2-5.webp",
           content:
             "We install fire safety systems to provide a quick response in the event of a fire. We ensure safety in your workplace with automatic fire detection and suppression systems. Installation is fully and meticulously carried out on-site.",
         },
         {
           id: 6,
-          name: "Fire Safety System Maintenance",
+          name: "Service maintenance of fire safety systems",
           img: "/imgs/service-2-6.webp",
           content:
             "Regular maintenance of fire safety systems ensures their continuous and reliable operation. Our team regularly checks fire detection and suppression systems and responds swiftly when needed. We also offer annual inspection services to keep your system up to date.",
@@ -537,48 +558,48 @@ export default {
     },
     {
       id: 3,
-      name: "Installation and maintenance of air conditioning systems",
-      title: "Çaly company offers the following services:",
+      name: "Installation and Maintenance of Air Conditioning Systems",
+      title: "The «Çaly» company offers:",
       desc: "We provide equipment selection, installation, and maintenance services...",
       services: [
         {
           id: 1,
-          name: "Chiller Installation",
+          name: "Installation of chillers",
           img: "/imgs/service-3-1.webp",
           content:
             "We provide high-quality chiller installation services with our experienced and professional team. The installation of chillers is carried out efficiently and accurately, taking into account all technical requirements. Each part of the system is installed correctly with maximum precision.",
         },
         {
           id: 2,
-          name: "Chiller Maintenance",
+          name: "Chiller service",
           img: "/imgs/service-3-2.webp",
           content:
             "Maintaining your chillers is essential for their longevity and proper functioning. We carry out regular checks and provide necessary maintenance services. We also offer specialized maintenance for industrial and military chillers.",
         },
         {
           id: 3,
-          name: "WRV System Installation",
+          name: "Installation of WRV systems",
           img: "/imgs/service-3-3.webp",
           content:
             "We install WRV systems that ensure high efficiency and comfort in the building. WRV systems play a crucial role in preventing fires, overheating, and smoke in workspaces. The installation is performed using specialized and effective methods.",
         },
         {
           id: 4,
-          name: "WRV System Maintenance",
+          name: "WRV systems service",
           img: "/imgs/service-3-4.webp",
           content:
             "Regular maintenance of WRV systems is essential for their longevity and reliability. We perform full inspections and provide necessary maintenance services. For each part of the system, we offer specialized and prompt services.",
         },
         {
           id: 5,
-          name: "HVAC System Installation",
+          name: "Installation of ventilation systems",
           img: "/imgs/service-3-5.webp",
           content:
             "We install HVAC systems that ensure clean air and a comfortable environment in workspaces. We guarantee optimal air conditions in the workplace. The installation is performed quickly and efficiently, with full adherence to all regulations.",
         },
         {
           id: 6,
-          name: "HVAC System Maintenance",
+          name: "Maintenance services ventilation systems",
           img: "/imgs/service-3-6.webp",
           content:
             "Maintaining HVAC systems is necessary to keep them working efficiently and to ensure clean air. We conduct regular inspections and provide repair and maintenance services. Any issues are resolved quickly and correctly, guaranteeing safety and comfort in the building.",
@@ -589,9 +610,9 @@ export default {
     },
     {
       id: 4,
-      name: "Production and installation of insulation materials",
+      name: "Production and Installation Services for Insulation Materials",
       title:
-        "Çaly company produces various insulation materials and offers related services:",
+        "The «Çaly» company manufactures Izogam - a roll waterproofing material in various modifications - as well as bitumen mastic.",
       desc: "",
       services: [
         {
@@ -603,17 +624,17 @@ export default {
         },
         {
           id: 2,
-          name: "Thermal Insulation",
+          name: "Thermal insulation",
           img: "/imgs/service-4-2.webp",
           content:
             "Our thermal insulation services help improve the heat efficiency of buildings. This helps enhance fire safety and energy savings. It also plays a crucial role in maintaining the internal temperature of the building.",
         },
         {
           id: 3,
-          name: "Sound Insulation",
+          name: "Noise insulation",
           img: "/imgs/service-4-3.webp",
           content:
-            "Our sound insulation services offer solutions for reducing noise and vibration within spaces. We use the latest technologies and materials to provide effective resistance against both low and high levels of sound.",
+            "Our noise insulation services offer solutions for reducing noise and vibration within spaces. We use the latest technologies and materials to provide effective resistance against both low and high levels of sound.",
         },
       ],
       image: "/imgs/service-4.webp",
