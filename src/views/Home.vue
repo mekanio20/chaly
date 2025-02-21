@@ -15,6 +15,8 @@
                             </p>
                             <p style="margin-top: -30px;">
                                 <span class="font-medium"></span><br /> <br>
+                                    {{ $t('title67') }}
+                                <span class="font-medium"></span><br /> <br>
                                     {{ $t('title65') }}
                                 <br /> <br>
                                     {{ $t('title68') }}
