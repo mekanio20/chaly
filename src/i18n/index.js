@@ -210,9 +210,9 @@ const messages = {
     title64:
       "Компания «Чалы-Трейдинг-Сервис»",
     title65:
-      'Компания "«Чалы" была основана с целью предоставления высококачественных строительных материалов, обеспечивающих надежность и долговечность любого строительного проекта. За годы работы мы зарекомендовали себя как надежный партнер, предлагая продукцию, соответствующую самым высоким стандартам в строительной отрасли.',
+      'Компания "«Чалы" была основана с целью ',
     title67:
-      "–Компания «Çaly» основана в 2007 году с целью производства высококачественных строительных материалов, обеспечивающих долговечность и надежность любых строительных объектов.",
+      "–Компания «Çaly» основана в 2007 году с целью предоставления высококачественных строительных материалов, обеспечивающих надежность и долговечность любого строительного проекта. За годы работы мы зарекомендовали себя как надежный партнер, предлагая продукцию, соответствующую самым высоким стандартам в строительной отрасли.",
     title68:
       "За годы работы компания значительно расширила направления деятельности, предлагая продукцию и услуги, соответствующие самым высоким стандартам качества.",
     title70: "Наши работы",
@@ -340,7 +340,7 @@ const messages = {
     // HOME
     title64: "Chaly-Service Company",
     title65: "The «Çaly» company was founded in 2007 with the goal of producing high-quality construction materials that ensure the durability and reliability of any building structures.",
-    title67: "Çaly company was founded in 2007 with the aim of producing high-quality construction materials that ensure the durability and reliability of any construction facility.",
+    title67: "The «Çaly» company was founded in 2007 with the goal of producing high-quality construction materials that ensure the durability and reliability of any building structures.",
     title68: "Over the years, the company has significantly expanded its scope of activities, offering products and services that meet the highest quality standards.",
     title70: "Our Works",
     title71: "News",

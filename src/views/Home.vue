@@ -16,8 +16,8 @@
                             <p style="margin-top: -30px;">
                                 <span class="font-medium"></span><br /> <br>
                                     {{ $t('title67') }}
-                                <span class="font-medium"></span><br /> <br>
-                                    {{ $t('title65') }}
+                                <!-- <span class="font-medium"></span><br /> <br>
+                                    {{ $t('title65') }} -->
                                 <br /> <br>
                                     {{ $t('title68') }}
                                 <br />
@@ -28,7 +28,7 @@
             </div>
             <div class="projects-content !mb-0 pb-10">
                 <div class="container">
-                    <strong class="global-title font-bold text-m_blue-100">
+                    <strong class="global-title font-bold text-white pt-5">
                         {{ $t('title70') }}
                     </strong>
                     <aside class="sidebar-news">
