@@ -8,13 +8,14 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+public/imgs
 dist
 dist-ssr
 *.local
+.env
 
 # Editor directories and files
-imgs
-.vscode/*
+.vscode
 !.vscode/extensions.json
 .idea
 .DS_Store
